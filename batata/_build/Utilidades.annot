@@ -1,0 +1,4686 @@
+"Utilidades.ml" 4 43 51 "Utilidades.ml" 4 43 61
+type(
+  string list -> unit
+)
+ident(
+  def print_list "Utilidades.ml" 4 43 43 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 5 73 73 "Utilidades.ml" 5 73 75
+type(
+  string list
+)
+"Utilidades.ml" 5 73 79 "Utilidades.ml" 5 73 81
+type(
+  unit
+)
+"Utilidades.ml" 6 82 84 "Utilidades.ml" 6 82 85
+type(
+  string
+)
+ident(
+  def e "Utilidades.ml" 6 82 92 "Utilidades.ml" 6 82 140
+)
+"Utilidades.ml" 6 82 87 "Utilidades.ml" 6 82 88
+type(
+  string list
+)
+ident(
+  def l "Utilidades.ml" 6 82 92 "Utilidades.ml" 6 82 140
+)
+"Utilidades.ml" 6 82 84 "Utilidades.ml" 6 82 88
+type(
+  string list
+)
+"Utilidades.ml" 6 82 92 "Utilidades.ml" 6 82 104
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Utilidades.ml" 6 82 105 "Utilidades.ml" 6 82 106
+type(
+  string
+)
+ident(
+  int_ref e "Utilidades.ml" 6 82 84 "Utilidades.ml" 6 82 85
+)
+"Utilidades.ml" 6 82 92 "Utilidades.ml" 6 82 106
+call(
+  stack
+)
+type(
+  unit
+)
+"Utilidades.ml" 6 82 109 "Utilidades.ml" 6 82 121
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Utilidades.ml" 6 82 122 "Utilidades.ml" 6 82 125
+type(
+  string
+)
+"Utilidades.ml" 6 82 109 "Utilidades.ml" 6 82 125
+call(
+  stack
+)
+type(
+  unit
+)
+"Utilidades.ml" 6 82 128 "Utilidades.ml" 6 82 138
+type(
+  string list -> unit
+)
+ident(
+  int_ref print_list "Utilidades.ml" 4 43 51 "Utilidades.ml" 4 43 61
+)
+"Utilidades.ml" 6 82 139 "Utilidades.ml" 6 82 140
+type(
+  string list
+)
+ident(
+  int_ref l "Utilidades.ml" 6 82 87 "Utilidades.ml" 6 82 88
+)
+"Utilidades.ml" 6 82 128 "Utilidades.ml" 6 82 140
+call(
+  tail
+)
+type(
+  unit
+)
+"Utilidades.ml" 6 82 109 "Utilidades.ml" 6 82 140
+type(
+  unit
+)
+"Utilidades.ml" 6 82 92 "Utilidades.ml" 6 82 140
+type(
+  unit
+)
+"Utilidades.ml" 4 43 64 "Utilidades.ml" 6 82 140
+type(
+  string list -> unit
+)
+"Utilidades.ml" 9 184 188 "Utilidades.ml" 9 184 199
+type(
+  string -> string
+)
+ident(
+  def tira_espace "Utilidades.ml" 13 333 333 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 9 184 200 "Utilidades.ml" 9 184 203
+type(
+  string
+)
+ident(
+  def exp "Utilidades.ml" 10 206 207 "Utilidades.ml" 10 206 254
+)
+"Utilidades.ml" 10 206 207 "Utilidades.ml" 10 206 225
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"Utilidades.ml" 10 206 227 "Utilidades.ml" 10 206 237
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"Utilidades.ml" 10 206 238 "Utilidades.ml" 10 206 246
+type(
+  string
+)
+"Utilidades.ml" 10 206 226 "Utilidades.ml" 10 206 247
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"Utilidades.ml" 10 206 248 "Utilidades.ml" 10 206 250
+type(
+  string
+)
+"Utilidades.ml" 10 206 251 "Utilidades.ml" 10 206 254
+type(
+  string
+)
+ident(
+  int_ref exp "Utilidades.ml" 9 184 200 "Utilidades.ml" 9 184 203
+)
+"Utilidades.ml" 10 206 207 "Utilidades.ml" 10 206 254
+call(
+  tail
+)
+type(
+  string
+)
+"Utilidades.ml" 13 333 337 "Utilidades.ml" 13 333 344
+type(
+  string -> char list
+)
+ident(
+  def explode "Utilidades.ml" 19 485 485 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 13 333 345 "Utilidades.ml" 13 333 346
+type(
+  string
+)
+ident(
+  def s "Utilidades.ml" 14 349 350 "Utilidades.ml" 16 417 445
+)
+"Utilidades.ml" 14 349 358 "Utilidades.ml" 14 349 361
+type(
+  int -> char list -> char list
+)
+ident(
+  def exp "Utilidades.ml" 14 349 350 "Utilidades.ml" 16 417 445
+)
+"Utilidades.ml" 14 349 362 "Utilidades.ml" 14 349 363
+type(
+  int
+)
+ident(
+  def i "Utilidades.ml" 14 349 364 "Utilidades.ml" 15 368 413
+)
+"Utilidades.ml" 14 349 364 "Utilidades.ml" 14 349 365
+type(
+  char list
+)
+ident(
+  def l "Utilidades.ml" 15 368 370 "Utilidades.ml" 15 368 413
+)
+"Utilidades.ml" 15 368 373 "Utilidades.ml" 15 368 374
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 14 349 362 "Utilidades.ml" 14 349 363
+)
+"Utilidades.ml" 15 368 374 "Utilidades.ml" 15 368 375
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Utilidades.ml" 15 368 375 "Utilidades.ml" 15 368 376
+type(
+  int
+)
+"Utilidades.ml" 15 368 373 "Utilidades.ml" 15 368 376
+type(
+  bool
+)
+"Utilidades.ml" 15 368 382 "Utilidades.ml" 15 368 383
+type(
+  char list
+)
+ident(
+  int_ref l "Utilidades.ml" 14 349 364 "Utilidades.ml" 14 349 365
+)
+"Utilidades.ml" 15 368 389 "Utilidades.ml" 15 368 392
+type(
+  int -> char list -> char list
+)
+ident(
+  int_ref exp "Utilidades.ml" 14 349 358 "Utilidades.ml" 14 349 361
+)
+"Utilidades.ml" 15 368 394 "Utilidades.ml" 15 368 395
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 14 349 362 "Utilidades.ml" 14 349 363
+)
+"Utilidades.ml" 15 368 396 "Utilidades.ml" 15 368 397
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 15 368 398 "Utilidades.ml" 15 368 399
+type(
+  int
+)
+"Utilidades.ml" 15 368 393 "Utilidades.ml" 15 368 400
+type(
+  int
+)
+"Utilidades.ml" 15 368 402 "Utilidades.ml" 15 368 403
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 13 333 345 "Utilidades.ml" 13 333 346
+)
+"Utilidades.ml" 15 368 405 "Utilidades.ml" 15 368 406
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 14 349 362 "Utilidades.ml" 14 349 363
+)
+"Utilidades.ml" 15 368 402 "Utilidades.ml" 15 368 407
+type(
+  char
+)
+"Utilidades.ml" 15 368 411 "Utilidades.ml" 15 368 412
+type(
+  char list
+)
+ident(
+  int_ref l "Utilidades.ml" 14 349 364 "Utilidades.ml" 14 349 365
+)
+"Utilidades.ml" 15 368 401 "Utilidades.ml" 15 368 413
+type(
+  char list
+)
+"Utilidades.ml" 15 368 389 "Utilidades.ml" 15 368 413
+call(
+  tail
+)
+type(
+  char list
+)
+"Utilidades.ml" 15 368 370 "Utilidades.ml" 15 368 413
+type(
+  char list
+)
+"Utilidades.ml" 16 417 418 "Utilidades.ml" 16 417 421
+type(
+  int -> char list -> char list
+)
+ident(
+  int_ref exp "Utilidades.ml" 14 349 358 "Utilidades.ml" 14 349 361
+)
+"Utilidades.ml" 16 417 423 "Utilidades.ml" 16 417 436
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"Utilidades.ml" 16 417 437 "Utilidades.ml" 16 417 438
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 13 333 345 "Utilidades.ml" 13 333 346
+)
+"Utilidades.ml" 16 417 423 "Utilidades.ml" 16 417 438
+type(
+  int
+)
+"Utilidades.ml" 16 417 439 "Utilidades.ml" 16 417 440
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 16 417 440 "Utilidades.ml" 16 417 441
+type(
+  int
+)
+"Utilidades.ml" 16 417 422 "Utilidades.ml" 16 417 442
+type(
+  int
+)
+"Utilidades.ml" 16 417 443 "Utilidades.ml" 16 417 445
+type(
+  char list
+)
+"Utilidades.ml" 16 417 418 "Utilidades.ml" 16 417 445
+call(
+  tail
+)
+type(
+  char list
+)
+"Utilidades.ml" 14 349 350 "Utilidades.ml" 16 417 445
+type(
+  char list
+)
+"Utilidades.ml" 19 485 489 "Utilidades.ml" 19 485 503
+type(
+  char -> bool
+)
+ident(
+  def e_variavel_min "Utilidades.ml" 22 628 628 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 19 485 504 "Utilidades.ml" 19 485 505
+type(
+  char
+)
+ident(
+  def c "Utilidades.ml" 19 485 508 "Utilidades.ml" 19 485 586
+)
+"Utilidades.ml" 19 485 510 "Utilidades.ml" 19 485 521
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 19 485 521 "Utilidades.ml" 19 485 524
+type(
+  char
+)
+ident(
+  int_ref c "Utilidades.ml" 19 485 504 "Utilidades.ml" 19 485 505
+)
+"Utilidades.ml" 19 485 510 "Utilidades.ml" 19 485 524
+type(
+  int
+)
+"Utilidades.ml" 19 485 525 "Utilidades.ml" 19 485 527
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"Utilidades.ml" 19 485 528 "Utilidades.ml" 19 485 539
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 19 485 539 "Utilidades.ml" 19 485 544
+type(
+  char
+)
+"Utilidades.ml" 19 485 528 "Utilidades.ml" 19 485 544
+type(
+  int
+)
+"Utilidades.ml" 19 485 509 "Utilidades.ml" 19 485 545
+type(
+  bool
+)
+"Utilidades.ml" 19 485 546 "Utilidades.ml" 19 485 548
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 19 485 550 "Utilidades.ml" 19 485 561
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 19 485 561 "Utilidades.ml" 19 485 564
+type(
+  char
+)
+ident(
+  int_ref c "Utilidades.ml" 19 485 504 "Utilidades.ml" 19 485 505
+)
+"Utilidades.ml" 19 485 550 "Utilidades.ml" 19 485 564
+type(
+  int
+)
+"Utilidades.ml" 19 485 565 "Utilidades.ml" 19 485 567
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"Utilidades.ml" 19 485 568 "Utilidades.ml" 19 485 579
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 19 485 579 "Utilidades.ml" 19 485 584
+type(
+  char
+)
+"Utilidades.ml" 19 485 568 "Utilidades.ml" 19 485 584
+type(
+  int
+)
+"Utilidades.ml" 19 485 549 "Utilidades.ml" 19 485 585
+type(
+  bool
+)
+"Utilidades.ml" 19 485 508 "Utilidades.ml" 19 485 586
+type(
+  bool
+)
+"Utilidades.ml" 22 628 632 "Utilidades.ml" 22 628 646
+type(
+  char -> bool
+)
+ident(
+  def e_variavel_max "Utilidades.ml" 25 762 762 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 22 628 647 "Utilidades.ml" 22 628 648
+type(
+  char
+)
+ident(
+  def c "Utilidades.ml" 22 628 651 "Utilidades.ml" 22 628 729
+)
+"Utilidades.ml" 22 628 653 "Utilidades.ml" 22 628 664
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 22 628 664 "Utilidades.ml" 22 628 667
+type(
+  char
+)
+ident(
+  int_ref c "Utilidades.ml" 22 628 647 "Utilidades.ml" 22 628 648
+)
+"Utilidades.ml" 22 628 653 "Utilidades.ml" 22 628 667
+type(
+  int
+)
+"Utilidades.ml" 22 628 668 "Utilidades.ml" 22 628 670
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"Utilidades.ml" 22 628 671 "Utilidades.ml" 22 628 682
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 22 628 682 "Utilidades.ml" 22 628 687
+type(
+  char
+)
+"Utilidades.ml" 22 628 671 "Utilidades.ml" 22 628 687
+type(
+  int
+)
+"Utilidades.ml" 22 628 652 "Utilidades.ml" 22 628 688
+type(
+  bool
+)
+"Utilidades.ml" 22 628 689 "Utilidades.ml" 22 628 691
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 22 628 693 "Utilidades.ml" 22 628 704
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 22 628 704 "Utilidades.ml" 22 628 707
+type(
+  char
+)
+ident(
+  int_ref c "Utilidades.ml" 22 628 647 "Utilidades.ml" 22 628 648
+)
+"Utilidades.ml" 22 628 693 "Utilidades.ml" 22 628 707
+type(
+  int
+)
+"Utilidades.ml" 22 628 708 "Utilidades.ml" 22 628 710
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"Utilidades.ml" 22 628 711 "Utilidades.ml" 22 628 722
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 22 628 722 "Utilidades.ml" 22 628 727
+type(
+  char
+)
+"Utilidades.ml" 22 628 711 "Utilidades.ml" 22 628 727
+type(
+  int
+)
+"Utilidades.ml" 22 628 692 "Utilidades.ml" 22 628 728
+type(
+  bool
+)
+"Utilidades.ml" 22 628 651 "Utilidades.ml" 22 628 729
+type(
+  bool
+)
+"Utilidades.ml" 25 762 766 "Utilidades.ml" 25 762 774
+type(
+  char -> bool
+)
+ident(
+  def e_digito "Utilidades.ml" 31 1055 1055 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 25 762 775 "Utilidades.ml" 25 762 776
+type(
+  char
+)
+ident(
+  def c "Utilidades.ml" 25 762 779 "Utilidades.ml" 26 811 868
+)
+"Utilidades.ml" 25 762 783 "Utilidades.ml" 25 762 787
+type(
+  int
+)
+ident(
+  def zero "Utilidades.ml" 26 811 812 "Utilidades.ml" 26 811 868
+)
+"Utilidades.ml" 25 762 790 "Utilidades.ml" 25 762 801
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 25 762 801 "Utilidades.ml" 25 762 806
+type(
+  char
+)
+"Utilidades.ml" 25 762 790 "Utilidades.ml" 25 762 806
+type(
+  int
+)
+"Utilidades.ml" 26 811 812 "Utilidades.ml" 26 811 823
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 26 811 823 "Utilidades.ml" 26 811 826
+type(
+  char
+)
+ident(
+  int_ref c "Utilidades.ml" 25 762 775 "Utilidades.ml" 25 762 776
+)
+"Utilidades.ml" 26 811 812 "Utilidades.ml" 26 811 826
+type(
+  int
+)
+"Utilidades.ml" 26 811 827 "Utilidades.ml" 26 811 828
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 26 811 829 "Utilidades.ml" 26 811 833
+type(
+  int
+)
+ident(
+  int_ref zero "Utilidades.ml" 25 762 783 "Utilidades.ml" 25 762 787
+)
+"Utilidades.ml" 26 811 812 "Utilidades.ml" 26 811 833
+type(
+  int
+)
+"Utilidades.ml" 26 811 834 "Utilidades.ml" 26 811 836
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"Utilidades.ml" 26 811 837 "Utilidades.ml" 26 811 838
+type(
+  int
+)
+"Utilidades.ml" 26 811 812 "Utilidades.ml" 26 811 838
+type(
+  bool
+)
+"Utilidades.ml" 26 811 839 "Utilidades.ml" 26 811 841
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 26 811 842 "Utilidades.ml" 26 811 853
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"Utilidades.ml" 26 811 853 "Utilidades.ml" 26 811 856
+type(
+  char
+)
+ident(
+  int_ref c "Utilidades.ml" 25 762 775 "Utilidades.ml" 25 762 776
+)
+"Utilidades.ml" 26 811 842 "Utilidades.ml" 26 811 856
+type(
+  int
+)
+"Utilidades.ml" 26 811 857 "Utilidades.ml" 26 811 858
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 26 811 859 "Utilidades.ml" 26 811 863
+type(
+  int
+)
+ident(
+  int_ref zero "Utilidades.ml" 25 762 783 "Utilidades.ml" 25 762 787
+)
+"Utilidades.ml" 26 811 842 "Utilidades.ml" 26 811 863
+type(
+  int
+)
+"Utilidades.ml" 26 811 864 "Utilidades.ml" 26 811 866
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"Utilidades.ml" 26 811 867 "Utilidades.ml" 26 811 868
+type(
+  int
+)
+"Utilidades.ml" 26 811 842 "Utilidades.ml" 26 811 868
+type(
+  bool
+)
+"Utilidades.ml" 26 811 812 "Utilidades.ml" 26 811 868
+type(
+  bool
+)
+"Utilidades.ml" 25 762 779 "Utilidades.ml" 26 811 868
+type(
+  bool
+)
+"Utilidades.ml" 31 1055 1059 "Utilidades.ml" 31 1055 1070
+type(
+  string -> unit
+)
+ident(
+  def separa_hack "Utilidades.ml" 66 2329 2329 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 31 1055 1077 "Utilidades.ml" 31 1055 1091
+type(
+  string
+)
+ident(
+  def expressao_real "Utilidades.ml" 32 1094 1096 "Utilidades.ml" 63 2236 2264
+)
+"Utilidades.ml" 32 1094 1100 "Utilidades.ml" 32 1094 1109
+type(
+  string
+)
+ident(
+  def expressao "Utilidades.ml" 33 1142 1144 "Utilidades.ml" 63 2236 2264
+)
+"Utilidades.ml" 32 1094 1112 "Utilidades.ml" 32 1094 1123
+type(
+  string -> string
+)
+ident(
+  int_ref tira_espace "Utilidades.ml" 9 184 188 "Utilidades.ml" 9 184 199
+)
+"Utilidades.ml" 32 1094 1124 "Utilidades.ml" 32 1094 1138
+type(
+  string
+)
+ident(
+  int_ref expressao_real "Utilidades.ml" 31 1055 1077 "Utilidades.ml" 31 1055 1091
+)
+"Utilidades.ml" 32 1094 1112 "Utilidades.ml" 32 1094 1138
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 33 1142 1148 "Utilidades.ml" 33 1142 1158
+type(
+  char list
+)
+ident(
+  def lista_char "Utilidades.ml" 34 1182 1183 "Utilidades.ml" 63 2236 2264
+)
+"Utilidades.ml" 33 1142 1161 "Utilidades.ml" 33 1142 1168
+type(
+  string -> char list
+)
+ident(
+  int_ref explode "Utilidades.ml" 13 333 337 "Utilidades.ml" 13 333 344
+)
+"Utilidades.ml" 33 1142 1169 "Utilidades.ml" 33 1142 1178
+type(
+  string
+)
+ident(
+  int_ref expressao "Utilidades.ml" 32 1094 1100 "Utilidades.ml" 32 1094 1109
+)
+"Utilidades.ml" 33 1142 1161 "Utilidades.ml" 33 1142 1178
+call(
+  stack
+)
+type(
+  char list
+)
+"Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+type(
+  string ref
+)
+ident(
+  def palavra "Utilidades.ml" 35 1207 1208 "Utilidades.ml" 63 2236 2264
+)
+"Utilidades.ml" 34 1182 1197 "Utilidades.ml" 34 1182 1200
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 34 1182 1201 "Utilidades.ml" 34 1182 1203
+type(
+  string
+)
+"Utilidades.ml" 34 1182 1197 "Utilidades.ml" 34 1182 1203
+type(
+  string ref
+)
+"Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+type(
+  char ref
+)
+ident(
+  def letra "Utilidades.ml" 36 1231 1232 "Utilidades.ml" 63 2236 2264
+)
+"Utilidades.ml" 35 1207 1220 "Utilidades.ml" 35 1207 1223
+type(
+  char -> char ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 35 1207 1224 "Utilidades.ml" 35 1207 1227
+type(
+  char
+)
+"Utilidades.ml" 35 1207 1220 "Utilidades.ml" 35 1207 1227
+type(
+  char ref
+)
+"Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+type(
+  string list ref
+)
+ident(
+  def lista "Utilidades.ml" 37 1258 1258 "Utilidades.ml" 63 2236 2264
+)
+"Utilidades.ml" 36 1231 1244 "Utilidades.ml" 36 1231 1247
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 36 1231 1249 "Utilidades.ml" 36 1231 1251
+type(
+  string
+)
+"Utilidades.ml" 36 1231 1248 "Utilidades.ml" 36 1231 1252
+type(
+  string list
+)
+"Utilidades.ml" 36 1231 1244 "Utilidades.ml" 36 1231 1252
+type(
+  string list ref
+)
+"Utilidades.ml" 37 1258 1269 "Utilidades.ml" 37 1258 1270
+type(
+  int
+)
+"Utilidades.ml" 37 1258 1276 "Utilidades.ml" 37 1258 1287
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"Utilidades.ml" 37 1258 1288 "Utilidades.ml" 37 1258 1298
+type(
+  char list
+)
+ident(
+  int_ref lista_char "Utilidades.ml" 33 1142 1148 "Utilidades.ml" 33 1142 1158
+)
+"Utilidades.ml" 37 1258 1275 "Utilidades.ml" 37 1258 1299
+call(
+  stack
+)
+type(
+  int
+)
+"Utilidades.ml" 37 1258 1299 "Utilidades.ml" 37 1258 1300
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 37 1258 1300 "Utilidades.ml" 37 1258 1301
+type(
+  int
+)
+"Utilidades.ml" 37 1258 1274 "Utilidades.ml" 37 1258 1302
+type(
+  int
+)
+"Utilidades.ml" 38 1306 1307 "Utilidades.ml" 38 1306 1312
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 38 1306 1313 "Utilidades.ml" 38 1306 1315
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 38 1306 1316 "Utilidades.ml" 38 1306 1324
+type(
+  char list -> int -> char
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 38 1306 1325 "Utilidades.ml" 38 1306 1335
+type(
+  char list
+)
+ident(
+  int_ref lista_char "Utilidades.ml" 33 1142 1148 "Utilidades.ml" 33 1142 1158
+)
+"Utilidades.ml" 38 1306 1336 "Utilidades.ml" 38 1306 1342
+type(
+  int
+)
+ident(
+  int_ref indice "Utilidades.ml" 37 1258 1258 "Utilidades.ml" 62 2230 2234
+)
+"Utilidades.ml" 38 1306 1316 "Utilidades.ml" 38 1306 1342
+call(
+  stack
+)
+type(
+  char
+)
+"Utilidades.ml" 38 1306 1307 "Utilidades.ml" 38 1306 1342
+type(
+  unit
+)
+"Utilidades.ml" 39 1344 1348 "Utilidades.ml" 39 1344 1362
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_min "Utilidades.ml" 19 485 489 "Utilidades.ml" 19 485 503
+)
+"Utilidades.ml" 39 1344 1363 "Utilidades.ml" 39 1344 1364
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 39 1344 1364 "Utilidades.ml" 39 1344 1369
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 39 1344 1362 "Utilidades.ml" 39 1344 1370
+type(
+  char
+)
+"Utilidades.ml" 39 1344 1348 "Utilidades.ml" 39 1344 1370
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 39 1344 1371 "Utilidades.ml" 39 1344 1373
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Utilidades.ml" 39 1344 1374 "Utilidades.ml" 39 1344 1388
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_max "Utilidades.ml" 22 628 632 "Utilidades.ml" 22 628 646
+)
+"Utilidades.ml" 39 1344 1389 "Utilidades.ml" 39 1344 1390
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 39 1344 1390 "Utilidades.ml" 39 1344 1395
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 39 1344 1388 "Utilidades.ml" 39 1344 1396
+type(
+  char
+)
+"Utilidades.ml" 39 1344 1374 "Utilidades.ml" 39 1344 1396
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 39 1344 1397 "Utilidades.ml" 39 1344 1399
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Utilidades.ml" 39 1344 1400 "Utilidades.ml" 39 1344 1408
+type(
+  char -> bool
+)
+ident(
+  int_ref e_digito "Utilidades.ml" 25 762 766 "Utilidades.ml" 25 762 774
+)
+"Utilidades.ml" 39 1344 1409 "Utilidades.ml" 39 1344 1410
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 39 1344 1410 "Utilidades.ml" 39 1344 1415
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 39 1344 1409 "Utilidades.ml" 39 1344 1415
+type(
+  char
+)
+"Utilidades.ml" 39 1344 1400 "Utilidades.ml" 39 1344 1415
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 39 1344 1374 "Utilidades.ml" 39 1344 1415
+type(
+  bool
+)
+"Utilidades.ml" 39 1344 1348 "Utilidades.ml" 39 1344 1415
+type(
+  bool
+)
+"Utilidades.ml" 40 1421 1423 "Utilidades.ml" 40 1421 1430
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 40 1421 1431 "Utilidades.ml" 40 1421 1433
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 40 1421 1435 "Utilidades.ml" 40 1421 1436
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 40 1421 1436 "Utilidades.ml" 40 1421 1443
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 40 1421 1434 "Utilidades.ml" 40 1421 1444
+type(
+  string
+)
+"Utilidades.ml" 40 1421 1444 "Utilidades.ml" 40 1421 1445
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 40 1421 1446 "Utilidades.ml" 40 1421 1457
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"Utilidades.ml" 40 1421 1458 "Utilidades.ml" 40 1421 1459
+type(
+  int
+)
+"Utilidades.ml" 40 1421 1460 "Utilidades.ml" 40 1421 1461
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 40 1421 1461 "Utilidades.ml" 40 1421 1466
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 40 1421 1460 "Utilidades.ml" 40 1421 1466
+type(
+  char
+)
+"Utilidades.ml" 40 1421 1445 "Utilidades.ml" 40 1421 1467
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 40 1421 1434 "Utilidades.ml" 40 1421 1467
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 40 1421 1423 "Utilidades.ml" 40 1421 1467
+type(
+  unit
+)
+"Utilidades.ml" 39 1344 1345 "Utilidades.ml" 40 1421 1467
+type(
+  unit
+)
+"Utilidades.ml" 41 1469 1474 "Utilidades.ml" 41 1469 1480
+type(
+  int
+)
+ident(
+  int_ref indice "Utilidades.ml" 37 1258 1258 "Utilidades.ml" 62 2230 2234
+)
+"Utilidades.ml" 41 1469 1481 "Utilidades.ml" 41 1469 1482
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 41 1469 1485 "Utilidades.ml" 41 1469 1496
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"Utilidades.ml" 41 1469 1497 "Utilidades.ml" 41 1469 1507
+type(
+  char list
+)
+ident(
+  int_ref lista_char "Utilidades.ml" 33 1142 1148 "Utilidades.ml" 33 1142 1158
+)
+"Utilidades.ml" 41 1469 1484 "Utilidades.ml" 41 1469 1508
+call(
+  stack
+)
+type(
+  int
+)
+"Utilidades.ml" 41 1469 1508 "Utilidades.ml" 41 1469 1509
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 41 1469 1509 "Utilidades.ml" 41 1469 1510
+type(
+  int
+)
+"Utilidades.ml" 41 1469 1483 "Utilidades.ml" 41 1469 1511
+type(
+  int
+)
+"Utilidades.ml" 41 1469 1474 "Utilidades.ml" 41 1469 1511
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1534 "Utilidades.ml" 43 1526 1548
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_min "Utilidades.ml" 19 485 489 "Utilidades.ml" 19 485 503
+)
+"Utilidades.ml" 43 1526 1549 "Utilidades.ml" 43 1526 1550
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 43 1526 1550 "Utilidades.ml" 43 1526 1555
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 43 1526 1548 "Utilidades.ml" 43 1526 1556
+type(
+  char
+)
+"Utilidades.ml" 43 1526 1534 "Utilidades.ml" 43 1526 1556
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1557 "Utilidades.ml" 43 1526 1558
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 43 1526 1559 "Utilidades.ml" 43 1526 1564
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1533 "Utilidades.ml" 43 1526 1565
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1566 "Utilidades.ml" 43 1526 1568
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 43 1526 1570 "Utilidades.ml" 43 1526 1584
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_max "Utilidades.ml" 22 628 632 "Utilidades.ml" 22 628 646
+)
+"Utilidades.ml" 43 1526 1585 "Utilidades.ml" 43 1526 1586
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 43 1526 1586 "Utilidades.ml" 43 1526 1591
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 43 1526 1584 "Utilidades.ml" 43 1526 1592
+type(
+  char
+)
+"Utilidades.ml" 43 1526 1570 "Utilidades.ml" 43 1526 1592
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1592 "Utilidades.ml" 43 1526 1593
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 43 1526 1593 "Utilidades.ml" 43 1526 1598
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1569 "Utilidades.ml" 43 1526 1599
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1600 "Utilidades.ml" 43 1526 1602
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 43 1526 1604 "Utilidades.ml" 43 1526 1612
+type(
+  char -> bool
+)
+ident(
+  int_ref e_digito "Utilidades.ml" 25 762 766 "Utilidades.ml" 25 762 774
+)
+"Utilidades.ml" 43 1526 1613 "Utilidades.ml" 43 1526 1614
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 43 1526 1614 "Utilidades.ml" 43 1526 1619
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 43 1526 1613 "Utilidades.ml" 43 1526 1619
+type(
+  char
+)
+"Utilidades.ml" 43 1526 1604 "Utilidades.ml" 43 1526 1619
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1620 "Utilidades.ml" 43 1526 1621
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 43 1526 1622 "Utilidades.ml" 43 1526 1627
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1603 "Utilidades.ml" 43 1526 1628
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1569 "Utilidades.ml" 43 1526 1628
+type(
+  bool
+)
+"Utilidades.ml" 43 1526 1533 "Utilidades.ml" 43 1526 1628
+type(
+  bool
+)
+"Utilidades.ml" 44 1641 1646 "Utilidades.ml" 44 1641 1651
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 44 1641 1652 "Utilidades.ml" 44 1641 1654
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 44 1641 1655 "Utilidades.ml" 44 1641 1666
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"Utilidades.ml" 44 1641 1668 "Utilidades.ml" 44 1641 1669
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 44 1641 1669 "Utilidades.ml" 44 1641 1676
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 44 1641 1668 "Utilidades.ml" 44 1641 1676
+type(
+  string
+)
+"Utilidades.ml" 44 1641 1667 "Utilidades.ml" 44 1641 1677
+type(
+  string list
+)
+"Utilidades.ml" 44 1641 1678 "Utilidades.ml" 44 1641 1679
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 44 1641 1679 "Utilidades.ml" 44 1641 1684
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 44 1641 1678 "Utilidades.ml" 44 1641 1684
+type(
+  string list
+)
+"Utilidades.ml" 44 1641 1655 "Utilidades.ml" 44 1641 1684
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 44 1641 1646 "Utilidades.ml" 44 1641 1684
+type(
+  unit
+)
+"Utilidades.ml" 45 1686 1691 "Utilidades.ml" 45 1686 1698
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 45 1686 1699 "Utilidades.ml" 45 1686 1701
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 45 1686 1702 "Utilidades.ml" 45 1686 1704
+type(
+  string
+)
+"Utilidades.ml" 45 1686 1691 "Utilidades.ml" 45 1686 1704
+type(
+  unit
+)
+"Utilidades.ml" 46 1707 1712 "Utilidades.ml" 46 1707 1717
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 46 1707 1718 "Utilidades.ml" 46 1707 1720
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 46 1707 1721 "Utilidades.ml" 46 1707 1732
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"Utilidades.ml" 46 1707 1734 "Utilidades.ml" 46 1707 1745
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"Utilidades.ml" 46 1707 1746 "Utilidades.ml" 46 1707 1747
+type(
+  int
+)
+"Utilidades.ml" 46 1707 1748 "Utilidades.ml" 46 1707 1749
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 46 1707 1749 "Utilidades.ml" 46 1707 1754
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 46 1707 1748 "Utilidades.ml" 46 1707 1754
+type(
+  char
+)
+"Utilidades.ml" 46 1707 1734 "Utilidades.ml" 46 1707 1754
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 46 1707 1733 "Utilidades.ml" 46 1707 1755
+type(
+  string list
+)
+"Utilidades.ml" 46 1707 1756 "Utilidades.ml" 46 1707 1757
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 46 1707 1757 "Utilidades.ml" 46 1707 1762
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 46 1707 1756 "Utilidades.ml" 46 1707 1762
+type(
+  string list
+)
+"Utilidades.ml" 46 1707 1721 "Utilidades.ml" 46 1707 1762
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 46 1707 1712 "Utilidades.ml" 46 1707 1763
+type(
+  unit
+)
+"Utilidades.ml" 45 1686 1691 "Utilidades.ml" 46 1707 1763
+type(
+  unit
+)
+"Utilidades.ml" 43 1526 1635 "Utilidades.ml" 46 1707 1766
+type(
+  unit
+)
+"Utilidades.ml" 48 1782 1787 "Utilidades.ml" 48 1782 1792
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 48 1782 1793 "Utilidades.ml" 48 1782 1795
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 48 1782 1796 "Utilidades.ml" 48 1782 1807
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"Utilidades.ml" 48 1782 1809 "Utilidades.ml" 48 1782 1810
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 48 1782 1810 "Utilidades.ml" 48 1782 1817
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 48 1782 1809 "Utilidades.ml" 48 1782 1817
+type(
+  string
+)
+"Utilidades.ml" 48 1782 1808 "Utilidades.ml" 48 1782 1818
+type(
+  string list
+)
+"Utilidades.ml" 48 1782 1819 "Utilidades.ml" 48 1782 1820
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 48 1782 1820 "Utilidades.ml" 48 1782 1825
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 48 1782 1819 "Utilidades.ml" 48 1782 1825
+type(
+  string list
+)
+"Utilidades.ml" 48 1782 1796 "Utilidades.ml" 48 1782 1825
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 48 1782 1787 "Utilidades.ml" 48 1782 1825
+type(
+  unit
+)
+"Utilidades.ml" 49 1827 1832 "Utilidades.ml" 49 1827 1839
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 49 1827 1840 "Utilidades.ml" 49 1827 1842
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 49 1827 1843 "Utilidades.ml" 49 1827 1845
+type(
+  string
+)
+"Utilidades.ml" 49 1827 1832 "Utilidades.ml" 49 1827 1846
+type(
+  unit
+)
+"Utilidades.ml" 47 1767 1776 "Utilidades.ml" 50 1847 1854
+type(
+  unit
+)
+"Utilidades.ml" 42 1517 1520 "Utilidades.ml" 51 1855 1861
+type(
+  unit
+)
+"Utilidades.ml" 53 1869 1876 "Utilidades.ml" 53 1869 1890
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_min "Utilidades.ml" 19 485 489 "Utilidades.ml" 19 485 503
+)
+"Utilidades.ml" 53 1869 1891 "Utilidades.ml" 53 1869 1892
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 53 1869 1892 "Utilidades.ml" 53 1869 1897
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 53 1869 1890 "Utilidades.ml" 53 1869 1898
+type(
+  char
+)
+"Utilidades.ml" 53 1869 1876 "Utilidades.ml" 53 1869 1898
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1899 "Utilidades.ml" 53 1869 1900
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 53 1869 1901 "Utilidades.ml" 53 1869 1906
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1875 "Utilidades.ml" 53 1869 1907
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1908 "Utilidades.ml" 53 1869 1910
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 53 1869 1912 "Utilidades.ml" 53 1869 1926
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_max "Utilidades.ml" 22 628 632 "Utilidades.ml" 22 628 646
+)
+"Utilidades.ml" 53 1869 1927 "Utilidades.ml" 53 1869 1928
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 53 1869 1928 "Utilidades.ml" 53 1869 1933
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 53 1869 1926 "Utilidades.ml" 53 1869 1934
+type(
+  char
+)
+"Utilidades.ml" 53 1869 1912 "Utilidades.ml" 53 1869 1934
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1934 "Utilidades.ml" 53 1869 1935
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 53 1869 1935 "Utilidades.ml" 53 1869 1940
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1911 "Utilidades.ml" 53 1869 1941
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1942 "Utilidades.ml" 53 1869 1944
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Utilidades.ml" 53 1869 1946 "Utilidades.ml" 53 1869 1954
+type(
+  char -> bool
+)
+ident(
+  int_ref e_digito "Utilidades.ml" 25 762 766 "Utilidades.ml" 25 762 774
+)
+"Utilidades.ml" 53 1869 1955 "Utilidades.ml" 53 1869 1956
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 53 1869 1956 "Utilidades.ml" 53 1869 1961
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 53 1869 1955 "Utilidades.ml" 53 1869 1961
+type(
+  char
+)
+"Utilidades.ml" 53 1869 1946 "Utilidades.ml" 53 1869 1961
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1962 "Utilidades.ml" 53 1869 1963
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 53 1869 1964 "Utilidades.ml" 53 1869 1969
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1945 "Utilidades.ml" 53 1869 1970
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1911 "Utilidades.ml" 53 1869 1970
+type(
+  bool
+)
+"Utilidades.ml" 53 1869 1875 "Utilidades.ml" 53 1869 1970
+type(
+  bool
+)
+"Utilidades.ml" 54 1983 1987 "Utilidades.ml" 54 1983 1992
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 54 1983 1993 "Utilidades.ml" 54 1983 1995
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 54 1983 1996 "Utilidades.ml" 54 1983 2007
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"Utilidades.ml" 54 1983 2009 "Utilidades.ml" 54 1983 2010
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 54 1983 2010 "Utilidades.ml" 54 1983 2017
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 54 1983 2009 "Utilidades.ml" 54 1983 2017
+type(
+  string
+)
+"Utilidades.ml" 54 1983 2008 "Utilidades.ml" 54 1983 2018
+type(
+  string list
+)
+"Utilidades.ml" 54 1983 2019 "Utilidades.ml" 54 1983 2020
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 54 1983 2020 "Utilidades.ml" 54 1983 2025
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 54 1983 2019 "Utilidades.ml" 54 1983 2025
+type(
+  string list
+)
+"Utilidades.ml" 54 1983 1996 "Utilidades.ml" 54 1983 2025
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 54 1983 1987 "Utilidades.ml" 54 1983 2025
+type(
+  unit
+)
+"Utilidades.ml" 55 2027 2031 "Utilidades.ml" 55 2027 2038
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 55 2027 2039 "Utilidades.ml" 55 2027 2041
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 55 2027 2042 "Utilidades.ml" 55 2027 2044
+type(
+  string
+)
+"Utilidades.ml" 55 2027 2031 "Utilidades.ml" 55 2027 2044
+type(
+  unit
+)
+"Utilidades.ml" 56 2047 2051 "Utilidades.ml" 56 2047 2056
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 56 2047 2057 "Utilidades.ml" 56 2047 2059
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 56 2047 2060 "Utilidades.ml" 56 2047 2071
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"Utilidades.ml" 56 2047 2073 "Utilidades.ml" 56 2047 2084
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"Utilidades.ml" 56 2047 2085 "Utilidades.ml" 56 2047 2086
+type(
+  int
+)
+"Utilidades.ml" 56 2047 2087 "Utilidades.ml" 56 2047 2088
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 56 2047 2088 "Utilidades.ml" 56 2047 2093
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 56 2047 2087 "Utilidades.ml" 56 2047 2093
+type(
+  char
+)
+"Utilidades.ml" 56 2047 2073 "Utilidades.ml" 56 2047 2093
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 56 2047 2072 "Utilidades.ml" 56 2047 2094
+type(
+  string list
+)
+"Utilidades.ml" 56 2047 2095 "Utilidades.ml" 56 2047 2096
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 56 2047 2096 "Utilidades.ml" 56 2047 2101
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 56 2047 2095 "Utilidades.ml" 56 2047 2101
+type(
+  string list
+)
+"Utilidades.ml" 56 2047 2060 "Utilidades.ml" 56 2047 2101
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 56 2047 2051 "Utilidades.ml" 56 2047 2102
+type(
+  unit
+)
+"Utilidades.ml" 55 2027 2031 "Utilidades.ml" 56 2047 2102
+type(
+  unit
+)
+"Utilidades.ml" 53 1869 1977 "Utilidades.ml" 56 2047 2105
+type(
+  unit
+)
+"Utilidades.ml" 58 2120 2128 "Utilidades.ml" 58 2120 2142
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_max "Utilidades.ml" 22 628 632 "Utilidades.ml" 22 628 646
+)
+"Utilidades.ml" 58 2120 2143 "Utilidades.ml" 58 2120 2144
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 58 2120 2144 "Utilidades.ml" 58 2120 2149
+type(
+  char ref
+)
+ident(
+  int_ref letra "Utilidades.ml" 35 1207 1212 "Utilidades.ml" 35 1207 1217
+)
+"Utilidades.ml" 58 2120 2142 "Utilidades.ml" 58 2120 2150
+type(
+  char
+)
+"Utilidades.ml" 58 2120 2128 "Utilidades.ml" 58 2120 2150
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 58 2120 2150 "Utilidades.ml" 58 2120 2151
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 58 2120 2151 "Utilidades.ml" 58 2120 2155
+type(
+  bool
+)
+"Utilidades.ml" 58 2120 2127 "Utilidades.ml" 58 2120 2156
+type(
+  bool
+)
+"Utilidades.ml" 59 2168 2174 "Utilidades.ml" 59 2168 2179
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 59 2168 2180 "Utilidades.ml" 59 2168 2182
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 59 2168 2183 "Utilidades.ml" 59 2168 2194
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"Utilidades.ml" 59 2168 2196 "Utilidades.ml" 59 2168 2197
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 59 2168 2197 "Utilidades.ml" 59 2168 2204
+type(
+  string ref
+)
+ident(
+  int_ref palavra "Utilidades.ml" 34 1182 1187 "Utilidades.ml" 34 1182 1194
+)
+"Utilidades.ml" 59 2168 2196 "Utilidades.ml" 59 2168 2204
+type(
+  string
+)
+"Utilidades.ml" 59 2168 2195 "Utilidades.ml" 59 2168 2205
+type(
+  string list
+)
+"Utilidades.ml" 59 2168 2206 "Utilidades.ml" 59 2168 2207
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 59 2168 2207 "Utilidades.ml" 59 2168 2212
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 59 2168 2206 "Utilidades.ml" 59 2168 2212
+type(
+  string list
+)
+"Utilidades.ml" 59 2168 2183 "Utilidades.ml" 59 2168 2212
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 58 2120 2162 "Utilidades.ml" 60 2214 2221
+type(
+  unit
+)
+"Utilidades.ml" 57 2106 2114 "Utilidades.ml" 61 2223 2229
+type(
+  unit
+)
+"Utilidades.ml" 53 1869 1872 "Utilidades.ml" 61 2223 2229
+type(
+  unit
+)
+"Utilidades.ml" 41 1469 1471 "Utilidades.ml" 61 2223 2229
+type(
+  unit
+)
+"Utilidades.ml" 39 1344 1345 "Utilidades.ml" 61 2223 2229
+type(
+  unit
+)
+"Utilidades.ml" 38 1306 1307 "Utilidades.ml" 61 2223 2229
+type(
+  unit
+)
+"Utilidades.ml" 37 1258 1258 "Utilidades.ml" 62 2230 2234
+type(
+  unit
+)
+"Utilidades.ml" 63 2236 2236 "Utilidades.ml" 63 2236 2246
+type(
+  string list -> unit
+)
+ident(
+  int_ref print_list "Utilidades.ml" 4 43 51 "Utilidades.ml" 4 43 61
+)
+"Utilidades.ml" 63 2236 2248 "Utilidades.ml" 63 2236 2256
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"Utilidades.ml" 63 2236 2257 "Utilidades.ml" 63 2236 2258
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 63 2236 2258 "Utilidades.ml" 63 2236 2263
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 36 1231 1236 "Utilidades.ml" 36 1231 1241
+)
+"Utilidades.ml" 63 2236 2257 "Utilidades.ml" 63 2236 2263
+type(
+  string list
+)
+"Utilidades.ml" 63 2236 2247 "Utilidades.ml" 63 2236 2264
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 63 2236 2236 "Utilidades.ml" 63 2236 2264
+call(
+  tail
+)
+type(
+  unit
+)
+"Utilidades.ml" 37 1258 1258 "Utilidades.ml" 63 2236 2264
+type(
+  unit
+)
+"Utilidades.ml" 36 1231 1232 "Utilidades.ml" 63 2236 2264
+type(
+  unit
+)
+"Utilidades.ml" 35 1207 1208 "Utilidades.ml" 63 2236 2264
+type(
+  unit
+)
+"Utilidades.ml" 34 1182 1183 "Utilidades.ml" 63 2236 2264
+type(
+  unit
+)
+"Utilidades.ml" 33 1142 1144 "Utilidades.ml" 63 2236 2264
+type(
+  unit
+)
+"Utilidades.ml" 32 1094 1096 "Utilidades.ml" 63 2236 2264
+type(
+  unit
+)
+"Utilidades.ml" 31 1055 1073 "Utilidades.ml" 63 2236 2264
+type(
+  string -> unit
+)
+"Utilidades.ml" 66 2329 2333 "Utilidades.ml" 66 2329 2352
+type(
+  string -> string list ref -> unit
+)
+ident(
+  def verifica_sintaxeFun "Utilidades.ml" 94 3139 3139 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+type(
+  string
+)
+ident(
+  def s "Utilidades.ml" 66 2329 2361 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 66 2329 2361 "Utilidades.ml" 66 2329 2366
+type(
+  string list ref
+)
+ident(
+  def lista "Utilidades.ml" 67 2370 2373 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 67 2370 2377 "Utilidades.ml" 67 2370 2384
+type(
+  int
+)
+ident(
+  def tamanho "Utilidades.ml" 68 2406 2408 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 67 2370 2387 "Utilidades.ml" 67 2370 2400
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"Utilidades.ml" 67 2370 2401 "Utilidades.ml" 67 2370 2402
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 67 2370 2387 "Utilidades.ml" 67 2370 2402
+type(
+  int
+)
+"Utilidades.ml" 68 2406 2412 "Utilidades.ml" 68 2406 2419
+type(
+  char list
+)
+ident(
+  def lista_s "Utilidades.ml" 69 2435 2437 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 68 2406 2422 "Utilidades.ml" 68 2406 2429
+type(
+  string -> char list
+)
+ident(
+  int_ref explode "Utilidades.ml" 13 333 337 "Utilidades.ml" 13 333 344
+)
+"Utilidades.ml" 68 2406 2430 "Utilidades.ml" 68 2406 2431
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 68 2406 2422 "Utilidades.ml" 68 2406 2431
+call(
+  stack
+)
+type(
+  char list
+)
+"Utilidades.ml" 69 2435 2441 "Utilidades.ml" 69 2435 2450
+type(
+  string list ref
+)
+ident(
+  def lista_var "Utilidades.ml" 70 2463 2465 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 69 2435 2453 "Utilidades.ml" 69 2435 2456
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 69 2435 2457 "Utilidades.ml" 69 2435 2459
+type(
+  string list
+)
+"Utilidades.ml" 69 2435 2453 "Utilidades.ml" 69 2435 2459
+type(
+  string list ref
+)
+"Utilidades.ml" 70 2463 2469 "Utilidades.ml" 70 2463 2481
+type(
+  int ref
+)
+ident(
+  def indice_atual "Utilidades.ml" 71 2494 2496 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 70 2463 2484 "Utilidades.ml" 70 2463 2487
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 70 2463 2488 "Utilidades.ml" 70 2463 2489
+type(
+  int
+)
+"Utilidades.ml" 70 2463 2484 "Utilidades.ml" 70 2463 2489
+type(
+  int ref
+)
+"Utilidades.ml" 71 2494 2500 "Utilidades.ml" 71 2494 2503
+type(
+  string ref
+)
+ident(
+  def var "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 90 3040 3070
+)
+"Utilidades.ml" 71 2494 2506 "Utilidades.ml" 71 2494 2509
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 71 2494 2510 "Utilidades.ml" 71 2494 2512
+type(
+  string
+)
+"Utilidades.ml" 71 2494 2506 "Utilidades.ml" 71 2494 2512
+type(
+  string ref
+)
+"Utilidades.ml" 72 2516 2526 "Utilidades.ml" 72 2516 2527
+type(
+  int
+)
+"Utilidades.ml" 72 2516 2532 "Utilidades.ml" 72 2516 2539
+type(
+  int
+)
+ident(
+  int_ref tamanho "Utilidades.ml" 67 2370 2377 "Utilidades.ml" 67 2370 2384
+)
+"Utilidades.ml" 72 2516 2540 "Utilidades.ml" 72 2516 2541
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 72 2516 2542 "Utilidades.ml" 72 2516 2543
+type(
+  int
+)
+"Utilidades.ml" 72 2516 2531 "Utilidades.ml" 72 2516 2544
+type(
+  int
+)
+"Utilidades.ml" 73 2548 2555 "Utilidades.ml" 73 2548 2565
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 73 2548 2566 "Utilidades.ml" 73 2548 2567
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 73 2548 2568 "Utilidades.ml" 73 2548 2569
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 73 2548 2554 "Utilidades.ml" 73 2548 2570
+type(
+  char
+)
+"Utilidades.ml" 73 2548 2571 "Utilidades.ml" 73 2548 2572
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 73 2548 2573 "Utilidades.ml" 73 2548 2576
+type(
+  char
+)
+"Utilidades.ml" 73 2548 2554 "Utilidades.ml" 73 2548 2576
+type(
+  bool
+)
+"Utilidades.ml" 73 2548 2577 "Utilidades.ml" 73 2548 2579
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Utilidades.ml" 73 2548 2581 "Utilidades.ml" 73 2548 2591
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 73 2548 2592 "Utilidades.ml" 73 2548 2593
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 73 2548 2594 "Utilidades.ml" 73 2548 2595
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 73 2548 2580 "Utilidades.ml" 73 2548 2596
+type(
+  char
+)
+"Utilidades.ml" 73 2548 2597 "Utilidades.ml" 73 2548 2598
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 73 2548 2599 "Utilidades.ml" 73 2548 2602
+type(
+  char
+)
+"Utilidades.ml" 73 2548 2580 "Utilidades.ml" 73 2548 2602
+type(
+  bool
+)
+"Utilidades.ml" 73 2548 2603 "Utilidades.ml" 73 2548 2605
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Utilidades.ml" 73 2548 2607 "Utilidades.ml" 73 2548 2617
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 73 2548 2618 "Utilidades.ml" 73 2548 2619
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 73 2548 2620 "Utilidades.ml" 73 2548 2621
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 73 2548 2606 "Utilidades.ml" 73 2548 2622
+type(
+  char
+)
+"Utilidades.ml" 73 2548 2623 "Utilidades.ml" 73 2548 2624
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 73 2548 2625 "Utilidades.ml" 73 2548 2628
+type(
+  char
+)
+"Utilidades.ml" 73 2548 2606 "Utilidades.ml" 73 2548 2628
+type(
+  bool
+)
+"Utilidades.ml" 73 2548 2580 "Utilidades.ml" 73 2548 2628
+type(
+  bool
+)
+"Utilidades.ml" 73 2548 2554 "Utilidades.ml" 73 2548 2628
+type(
+  bool
+)
+"Utilidades.ml" 75 2644 2648 "Utilidades.ml" 75 2644 2657
+type(
+  string list ref
+)
+ident(
+  int_ref lista_var "Utilidades.ml" 69 2435 2441 "Utilidades.ml" 69 2435 2450
+)
+"Utilidades.ml" 75 2644 2658 "Utilidades.ml" 75 2644 2660
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 75 2644 2662 "Utilidades.ml" 75 2644 2674
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"Utilidades.ml" 75 2644 2675 "Utilidades.ml" 75 2644 2685
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 75 2644 2686 "Utilidades.ml" 75 2644 2687
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 75 2644 2688 "Utilidades.ml" 75 2644 2689
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 75 2644 2674 "Utilidades.ml" 75 2644 2690
+type(
+  char
+)
+"Utilidades.ml" 75 2644 2662 "Utilidades.ml" 75 2644 2690
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 75 2644 2694 "Utilidades.ml" 75 2644 2695
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 75 2644 2695 "Utilidades.ml" 75 2644 2704
+type(
+  string list ref
+)
+ident(
+  int_ref lista_var "Utilidades.ml" 69 2435 2441 "Utilidades.ml" 69 2435 2450
+)
+"Utilidades.ml" 75 2644 2694 "Utilidades.ml" 75 2644 2704
+type(
+  string list
+)
+"Utilidades.ml" 75 2644 2661 "Utilidades.ml" 75 2644 2705
+type(
+  string list
+)
+"Utilidades.ml" 74 2634 2638 "Utilidades.ml" 76 2707 2714
+type(
+  unit
+)
+"Utilidades.ml" 79 2733 2737 "Utilidades.ml" 79 2733 2740
+type(
+  string ref
+)
+ident(
+  int_ref var "Utilidades.ml" 71 2494 2500 "Utilidades.ml" 71 2494 2503
+)
+"Utilidades.ml" 79 2733 2741 "Utilidades.ml" 79 2733 2743
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 79 2733 2744 "Utilidades.ml" 79 2733 2745
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 79 2733 2745 "Utilidades.ml" 79 2733 2748
+type(
+  string ref
+)
+ident(
+  int_ref var "Utilidades.ml" 71 2494 2500 "Utilidades.ml" 71 2494 2503
+)
+"Utilidades.ml" 79 2733 2744 "Utilidades.ml" 79 2733 2748
+type(
+  string
+)
+"Utilidades.ml" 79 2733 2749 "Utilidades.ml" 79 2733 2750
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 79 2733 2751 "Utilidades.ml" 79 2733 2763
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"Utilidades.ml" 79 2733 2764 "Utilidades.ml" 79 2733 2774
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 79 2733 2775 "Utilidades.ml" 79 2733 2776
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 79 2733 2777 "Utilidades.ml" 79 2733 2778
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 79 2733 2763 "Utilidades.ml" 79 2733 2779
+type(
+  char
+)
+"Utilidades.ml" 79 2733 2751 "Utilidades.ml" 79 2733 2779
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 79 2733 2744 "Utilidades.ml" 79 2733 2779
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 79 2733 2737 "Utilidades.ml" 79 2733 2779
+type(
+  unit
+)
+"Utilidades.ml" 80 2787 2794 "Utilidades.ml" 80 2787 2795
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 80 2787 2795 "Utilidades.ml" 80 2787 2796
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Utilidades.ml" 80 2787 2796 "Utilidades.ml" 80 2787 2797
+type(
+  int
+)
+"Utilidades.ml" 80 2787 2793 "Utilidades.ml" 80 2787 2798
+type(
+  int
+)
+"Utilidades.ml" 80 2787 2799 "Utilidades.ml" 80 2787 2800
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"Utilidades.ml" 80 2787 2801 "Utilidades.ml" 80 2787 2808
+type(
+  int
+)
+ident(
+  int_ref tamanho "Utilidades.ml" 67 2370 2377 "Utilidades.ml" 67 2370 2384
+)
+"Utilidades.ml" 80 2787 2793 "Utilidades.ml" 80 2787 2808
+type(
+  bool
+)
+"Utilidades.ml" 82 2826 2837 "Utilidades.ml" 82 2826 2847
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 82 2826 2848 "Utilidades.ml" 82 2826 2849
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 82 2826 2851 "Utilidades.ml" 82 2826 2852
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 82 2826 2852 "Utilidades.ml" 82 2826 2853
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Utilidades.ml" 82 2826 2853 "Utilidades.ml" 82 2826 2854
+type(
+  int
+)
+"Utilidades.ml" 82 2826 2850 "Utilidades.ml" 82 2826 2855
+type(
+  int
+)
+"Utilidades.ml" 82 2826 2836 "Utilidades.ml" 82 2826 2856
+type(
+  char
+)
+"Utilidades.ml" 82 2826 2857 "Utilidades.ml" 82 2826 2858
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 82 2826 2859 "Utilidades.ml" 82 2826 2862
+type(
+  char
+)
+"Utilidades.ml" 82 2826 2836 "Utilidades.ml" 82 2826 2862
+type(
+  bool
+)
+"Utilidades.ml" 82 2826 2863 "Utilidades.ml" 82 2826 2865
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Utilidades.ml" 82 2826 2867 "Utilidades.ml" 82 2826 2877
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 82 2826 2878 "Utilidades.ml" 82 2826 2879
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 82 2826 2881 "Utilidades.ml" 82 2826 2882
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 82 2826 2882 "Utilidades.ml" 82 2826 2883
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Utilidades.ml" 82 2826 2883 "Utilidades.ml" 82 2826 2884
+type(
+  int
+)
+"Utilidades.ml" 82 2826 2880 "Utilidades.ml" 82 2826 2885
+type(
+  int
+)
+"Utilidades.ml" 82 2826 2866 "Utilidades.ml" 82 2826 2886
+type(
+  char
+)
+"Utilidades.ml" 82 2826 2887 "Utilidades.ml" 82 2826 2888
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 82 2826 2889 "Utilidades.ml" 82 2826 2892
+type(
+  char
+)
+"Utilidades.ml" 82 2826 2866 "Utilidades.ml" 82 2826 2892
+type(
+  bool
+)
+"Utilidades.ml" 82 2826 2893 "Utilidades.ml" 82 2826 2895
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"Utilidades.ml" 82 2826 2897 "Utilidades.ml" 82 2826 2907
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"Utilidades.ml" 82 2826 2908 "Utilidades.ml" 82 2826 2909
+type(
+  string
+)
+ident(
+  int_ref s "Utilidades.ml" 66 2329 2359 "Utilidades.ml" 66 2329 2360
+)
+"Utilidades.ml" 82 2826 2911 "Utilidades.ml" 82 2826 2912
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+)
+"Utilidades.ml" 82 2826 2912 "Utilidades.ml" 82 2826 2913
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Utilidades.ml" 82 2826 2913 "Utilidades.ml" 82 2826 2914
+type(
+  int
+)
+"Utilidades.ml" 82 2826 2910 "Utilidades.ml" 82 2826 2915
+type(
+  int
+)
+"Utilidades.ml" 82 2826 2896 "Utilidades.ml" 82 2826 2916
+type(
+  char
+)
+"Utilidades.ml" 82 2826 2917 "Utilidades.ml" 82 2826 2918
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 82 2826 2919 "Utilidades.ml" 82 2826 2922
+type(
+  char
+)
+"Utilidades.ml" 82 2826 2896 "Utilidades.ml" 82 2826 2922
+type(
+  bool
+)
+"Utilidades.ml" 82 2826 2866 "Utilidades.ml" 82 2826 2922
+type(
+  bool
+)
+"Utilidades.ml" 82 2826 2836 "Utilidades.ml" 82 2826 2922
+type(
+  bool
+)
+"Utilidades.ml" 84 2941 2949 "Utilidades.ml" 84 2941 2958
+type(
+  string list ref
+)
+ident(
+  int_ref lista_var "Utilidades.ml" 69 2435 2441 "Utilidades.ml" 69 2435 2450
+)
+"Utilidades.ml" 84 2941 2959 "Utilidades.ml" 84 2941 2961
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 84 2941 2963 "Utilidades.ml" 84 2941 2964
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 84 2941 2964 "Utilidades.ml" 84 2941 2967
+type(
+  string ref
+)
+ident(
+  int_ref var "Utilidades.ml" 71 2494 2500 "Utilidades.ml" 71 2494 2503
+)
+"Utilidades.ml" 84 2941 2963 "Utilidades.ml" 84 2941 2967
+type(
+  string
+)
+"Utilidades.ml" 84 2941 2971 "Utilidades.ml" 84 2941 2972
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 84 2941 2972 "Utilidades.ml" 84 2941 2981
+type(
+  string list ref
+)
+ident(
+  int_ref lista_var "Utilidades.ml" 69 2435 2441 "Utilidades.ml" 69 2435 2450
+)
+"Utilidades.ml" 84 2941 2971 "Utilidades.ml" 84 2941 2981
+type(
+  string list
+)
+"Utilidades.ml" 84 2941 2962 "Utilidades.ml" 84 2941 2982
+type(
+  string list
+)
+"Utilidades.ml" 84 2941 2949 "Utilidades.ml" 84 2941 2982
+type(
+  unit
+)
+"Utilidades.ml" 85 2984 2991 "Utilidades.ml" 85 2984 2994
+type(
+  string ref
+)
+ident(
+  int_ref var "Utilidades.ml" 71 2494 2500 "Utilidades.ml" 71 2494 2503
+)
+"Utilidades.ml" 85 2984 2995 "Utilidades.ml" 85 2984 2997
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 85 2984 2998 "Utilidades.ml" 85 2984 3000
+type(
+  string
+)
+"Utilidades.ml" 85 2984 2991 "Utilidades.ml" 85 2984 3001
+type(
+  unit
+)
+"Utilidades.ml" 83 2928 2935 "Utilidades.ml" 86 3002 3012
+type(
+  unit
+)
+"Utilidades.ml" 81 2815 2820 "Utilidades.ml" 87 3013 3021
+type(
+  unit
+)
+"Utilidades.ml" 80 2787 2791 "Utilidades.ml" 87 3013 3021
+type(
+  unit
+)
+"Utilidades.ml" 78 2723 2727 "Utilidades.ml" 88 3022 3029
+type(
+  unit
+)
+"Utilidades.ml" 73 2548 2551 "Utilidades.ml" 88 3022 3029
+type(
+  unit
+)
+"Utilidades.ml" 72 2516 2518 "Utilidades.ml" 89 3032 3038
+type(
+  unit
+)
+"Utilidades.ml" 90 3040 3042 "Utilidades.ml" 90 3040 3047
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 66 2329 2361 "Utilidades.ml" 66 2329 2366
+)
+"Utilidades.ml" 90 3040 3048 "Utilidades.ml" 90 3040 3050
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 90 3040 3051 "Utilidades.ml" 90 3040 3059
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"Utilidades.ml" 90 3040 3060 "Utilidades.ml" 90 3040 3061
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 90 3040 3061 "Utilidades.ml" 90 3040 3070
+type(
+  string list ref
+)
+ident(
+  int_ref lista_var "Utilidades.ml" 69 2435 2441 "Utilidades.ml" 69 2435 2450
+)
+"Utilidades.ml" 90 3040 3060 "Utilidades.ml" 90 3040 3070
+type(
+  string list
+)
+"Utilidades.ml" 90 3040 3051 "Utilidades.ml" 90 3040 3070
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 90 3040 3042 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 72 2516 2518 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 71 2494 2496 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 70 2463 2465 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 69 2435 2437 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 68 2406 2408 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 67 2370 2373 "Utilidades.ml" 90 3040 3070
+type(
+  unit
+)
+"Utilidades.ml" 66 2329 2355 "Utilidades.ml" 90 3040 3070
+type(
+  string -> string list ref -> unit
+)
+"Utilidades.ml" 94 3139 3143 "Utilidades.ml" 94 3139 3148
+type(
+  string list ref -> string list ref -> unit
+)
+ident(
+  def token "Utilidades.ml" 145 4634 4669 "Utilidades.ml" 1 0 -1
+)
+"Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+type(
+  string list ref
+)
+ident(
+  def lista "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+type(
+  string list ref
+)
+ident(
+  def lista_final "Utilidades.ml" 95 3176 3177 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 95 3176 3181 "Utilidades.ml" 95 3176 3188
+type(
+  int
+)
+ident(
+  def tamanho "Utilidades.ml" 96 3213 3214 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 95 3176 3191 "Utilidades.ml" 95 3176 3202
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"Utilidades.ml" 95 3176 3203 "Utilidades.ml" 95 3176 3204
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 95 3176 3204 "Utilidades.ml" 95 3176 3209
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 95 3176 3203 "Utilidades.ml" 95 3176 3209
+type(
+  string list
+)
+"Utilidades.ml" 95 3176 3191 "Utilidades.ml" 95 3176 3209
+call(
+  stack
+)
+type(
+  int
+)
+"Utilidades.ml" 96 3213 3218 "Utilidades.ml" 96 3213 3230
+type(
+  bool ref
+)
+ident(
+  def resposta_int "Utilidades.ml" 97 3246 3247 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 96 3213 3233 "Utilidades.ml" 96 3213 3236
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 96 3213 3237 "Utilidades.ml" 96 3213 3242
+type(
+  bool
+)
+"Utilidades.ml" 96 3213 3233 "Utilidades.ml" 96 3213 3242
+type(
+  bool ref
+)
+"Utilidades.ml" 97 3246 3251 "Utilidades.ml" 97 3246 3263
+type(
+  bool ref
+)
+ident(
+  def resposta_rac "Utilidades.ml" 98 3279 3280 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 97 3246 3266 "Utilidades.ml" 97 3246 3269
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 97 3246 3270 "Utilidades.ml" 97 3246 3275
+type(
+  bool
+)
+"Utilidades.ml" 97 3246 3266 "Utilidades.ml" 97 3246 3275
+type(
+  bool ref
+)
+"Utilidades.ml" 98 3279 3284 "Utilidades.ml" 98 3279 3294
+type(
+  Str.regexp
+)
+ident(
+  def regexp_div "Utilidades.ml" 99 3317 3318 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 98 3279 3297 "Utilidades.ml" 98 3279 3307
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"Utilidades.ml" 98 3279 3308 "Utilidades.ml" 98 3279 3313
+type(
+  string
+)
+"Utilidades.ml" 98 3279 3297 "Utilidades.ml" 98 3279 3313
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"Utilidades.ml" 99 3317 3322 "Utilidades.ml" 99 3317 3329
+type(
+  bool ref
+)
+ident(
+  def rodada1 "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 145 4634 4669
+)
+"Utilidades.ml" 99 3317 3332 "Utilidades.ml" 99 3317 3335
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Utilidades.ml" 99 3317 3336 "Utilidades.ml" 99 3317 3340
+type(
+  bool
+)
+"Utilidades.ml" 99 3317 3332 "Utilidades.ml" 99 3317 3340
+type(
+  bool ref
+)
+"Utilidades.ml" 100 3344 3353 "Utilidades.ml" 100 3344 3354
+type(
+  int
+)
+"Utilidades.ml" 100 3344 3359 "Utilidades.ml" 100 3344 3366
+type(
+  int
+)
+ident(
+  int_ref tamanho "Utilidades.ml" 95 3176 3181 "Utilidades.ml" 95 3176 3188
+)
+"Utilidades.ml" 100 3344 3367 "Utilidades.ml" 100 3344 3368
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Utilidades.ml" 100 3344 3369 "Utilidades.ml" 100 3344 3370
+type(
+  int
+)
+"Utilidades.ml" 100 3344 3358 "Utilidades.ml" 100 3344 3371
+type(
+  int
+)
+"Utilidades.ml" 101 3375 3377 "Utilidades.ml" 101 3375 3389
+type(
+  string -> bool ref -> unit
+)
+ident(
+  ext_ref AvaliaSintaxe.verifica_int
+)
+"Utilidades.ml" 101 3375 3391 "Utilidades.ml" 101 3375 3399
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 101 3375 3400 "Utilidades.ml" 101 3375 3401
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 101 3375 3401 "Utilidades.ml" 101 3375 3406
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 101 3375 3400 "Utilidades.ml" 101 3375 3406
+type(
+  string list
+)
+"Utilidades.ml" 101 3375 3407 "Utilidades.ml" 101 3375 3408
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 101 3375 3390 "Utilidades.ml" 101 3375 3409
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 101 3375 3410 "Utilidades.ml" 101 3375 3422
+type(
+  bool ref
+)
+ident(
+  int_ref resposta_int "Utilidades.ml" 96 3213 3218 "Utilidades.ml" 96 3213 3230
+)
+"Utilidades.ml" 101 3375 3377 "Utilidades.ml" 101 3375 3422
+call(
+  stack
+)
+type(
+  unit
+)
+"Utilidades.ml" 102 3424 3430 "Utilidades.ml" 102 3424 3444
+type(
+  int
+)
+ident(
+  def tamanho_string "Utilidades.ml" 103 3484 3486 "Utilidades.ml" 143 4600 4624
+)
+"Utilidades.ml" 102 3424 3447 "Utilidades.ml" 102 3424 3460
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"Utilidades.ml" 102 3424 3462 "Utilidades.ml" 102 3424 3470
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 102 3424 3471 "Utilidades.ml" 102 3424 3472
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 102 3424 3472 "Utilidades.ml" 102 3424 3477
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 102 3424 3471 "Utilidades.ml" 102 3424 3477
+type(
+  string list
+)
+"Utilidades.ml" 102 3424 3478 "Utilidades.ml" 102 3424 3479
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 102 3424 3461 "Utilidades.ml" 102 3424 3480
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 102 3424 3447 "Utilidades.ml" 102 3424 3480
+type(
+  int
+)
+"Utilidades.ml" 103 3484 3494 "Utilidades.ml" 103 3484 3495
+type(
+  int
+)
+"Utilidades.ml" 103 3484 3499 "Utilidades.ml" 103 3484 3515
+type(
+  int
+)
+ident(
+  int_ref tamanho_string "Utilidades.ml" 102 3424 3430 "Utilidades.ml" 102 3424 3444
+)
+"Utilidades.ml" 104 3519 3525 "Utilidades.ml" 104 3519 3541
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"Utilidades.ml" 104 3519 3542 "Utilidades.ml" 104 3519 3552
+type(
+  Str.regexp
+)
+ident(
+  int_ref regexp_div "Utilidades.ml" 98 3279 3284 "Utilidades.ml" 98 3279 3294
+)
+"Utilidades.ml" 104 3519 3554 "Utilidades.ml" 104 3519 3562
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 104 3519 3563 "Utilidades.ml" 104 3519 3564
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 104 3519 3564 "Utilidades.ml" 104 3519 3569
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 104 3519 3563 "Utilidades.ml" 104 3519 3569
+type(
+  string list
+)
+"Utilidades.ml" 104 3519 3570 "Utilidades.ml" 104 3519 3571
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 104 3519 3553 "Utilidades.ml" 104 3519 3572
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 104 3519 3573 "Utilidades.ml" 104 3519 3574
+type(
+  int
+)
+ident(
+  int_ref j "Utilidades.ml" 103 3484 3486 "Utilidades.ml" 110 3710 3716
+)
+"Utilidades.ml" 104 3519 3524 "Utilidades.ml" 104 3519 3575
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 106 3590 3594 "Utilidades.ml" 106 3590 3620
+type(
+  string -> bool ref -> unit
+)
+ident(
+  ext_ref AvaliaSintaxe.verifica_rac
+)
+"Utilidades.ml" 106 3590 3622 "Utilidades.ml" 106 3590 3630
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 106 3590 3631 "Utilidades.ml" 106 3590 3632
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 106 3590 3632 "Utilidades.ml" 106 3590 3637
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 106 3590 3631 "Utilidades.ml" 106 3590 3637
+type(
+  string list
+)
+"Utilidades.ml" 106 3590 3638 "Utilidades.ml" 106 3590 3639
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 106 3590 3621 "Utilidades.ml" 106 3590 3640
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 106 3590 3641 "Utilidades.ml" 106 3590 3653
+type(
+  bool ref
+)
+ident(
+  int_ref resposta_rac "Utilidades.ml" 97 3246 3251 "Utilidades.ml" 97 3246 3263
+)
+"Utilidades.ml" 106 3590 3594 "Utilidades.ml" 106 3590 3653
+call(
+  stack
+)
+type(
+  unit
+)
+"Utilidades.ml" 107 3655 3661 "Utilidades.ml" 107 3655 3662
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 107 3655 3662 "Utilidades.ml" 107 3655 3674
+type(
+  bool ref
+)
+ident(
+  int_ref resposta_rac "Utilidades.ml" 97 3246 3251 "Utilidades.ml" 97 3246 3263
+)
+"Utilidades.ml" 107 3655 3661 "Utilidades.ml" 107 3655 3674
+type(
+  bool
+)
+"Utilidades.ml" 108 3680 3684 "Utilidades.ml" 108 3680 3691
+type(
+  bool ref
+)
+ident(
+  int_ref rodada1 "Utilidades.ml" 99 3317 3322 "Utilidades.ml" 99 3317 3329
+)
+"Utilidades.ml" 108 3680 3692 "Utilidades.ml" 108 3680 3694
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 108 3680 3695 "Utilidades.ml" 108 3680 3700
+type(
+  bool
+)
+"Utilidades.ml" 108 3680 3684 "Utilidades.ml" 108 3680 3700
+type(
+  unit
+)
+"Utilidades.ml" 107 3655 3658 "Utilidades.ml" 108 3680 3701
+type(
+  unit
+)
+"Utilidades.ml" 105 3581 3584 "Utilidades.ml" 109 3702 3708
+type(
+  unit
+)
+"Utilidades.ml" 104 3519 3521 "Utilidades.ml" 109 3702 3709
+type(
+  unit
+)
+"Utilidades.ml" 103 3484 3486 "Utilidades.ml" 110 3710 3716
+type(
+  unit
+)
+"Utilidades.ml" 111 3719 3721 "Utilidades.ml" 111 3719 3728
+type(
+  bool ref
+)
+ident(
+  int_ref rodada1 "Utilidades.ml" 99 3317 3322 "Utilidades.ml" 99 3317 3329
+)
+"Utilidades.ml" 111 3719 3729 "Utilidades.ml" 111 3719 3731
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 111 3719 3732 "Utilidades.ml" 111 3719 3736
+type(
+  bool
+)
+"Utilidades.ml" 111 3719 3721 "Utilidades.ml" 111 3719 3736
+type(
+  unit
+)
+"Utilidades.ml" 112 3738 3744 "Utilidades.ml" 112 3738 3754
+type(
+  string -> int -> int -> bool -> bool
+)
+ident(
+  ext_ref AvaliaSintaxe.ehVariavel
+)
+"Utilidades.ml" 112 3738 3756 "Utilidades.ml" 112 3738 3764
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 112 3738 3765 "Utilidades.ml" 112 3738 3766
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 112 3738 3766 "Utilidades.ml" 112 3738 3771
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 112 3738 3765 "Utilidades.ml" 112 3738 3771
+type(
+  string list
+)
+"Utilidades.ml" 112 3738 3772 "Utilidades.ml" 112 3738 3773
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 112 3738 3755 "Utilidades.ml" 112 3738 3774
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 112 3738 3775 "Utilidades.ml" 112 3738 3776
+type(
+  int
+)
+"Utilidades.ml" 112 3738 3777 "Utilidades.ml" 112 3738 3778
+type(
+  int
+)
+"Utilidades.ml" 112 3738 3779 "Utilidades.ml" 112 3738 3783
+type(
+  bool
+)
+"Utilidades.ml" 112 3738 3743 "Utilidades.ml" 112 3738 3784
+call(
+  stack
+)
+type(
+  bool
+)
+"Utilidades.ml" 114 3801 3808 "Utilidades.ml" 114 3801 3809
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 114 3801 3810 "Utilidades.ml" 114 3801 3811
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 114 3801 3812 "Utilidades.ml" 114 3801 3813
+type(
+  int
+)
+"Utilidades.ml" 114 3801 3808 "Utilidades.ml" 114 3801 3813
+type(
+  bool
+)
+"Utilidades.ml" 116 3831 3837 "Utilidades.ml" 116 3831 3848
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 116 3831 3849 "Utilidades.ml" 116 3831 3851
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 116 3831 3853 "Utilidades.ml" 116 3831 3860
+type(
+  string
+)
+"Utilidades.ml" 116 3831 3860 "Utilidades.ml" 116 3831 3861
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 116 3831 3862 "Utilidades.ml" 116 3831 3870
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 116 3831 3871 "Utilidades.ml" 116 3831 3872
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 116 3831 3872 "Utilidades.ml" 116 3831 3877
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 116 3831 3871 "Utilidades.ml" 116 3831 3877
+type(
+  string list
+)
+"Utilidades.ml" 116 3831 3878 "Utilidades.ml" 116 3831 3879
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 116 3831 3861 "Utilidades.ml" 116 3831 3880
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 116 3831 3880 "Utilidades.ml" 116 3831 3881
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 116 3831 3881 "Utilidades.ml" 116 3831 3884
+type(
+  string
+)
+"Utilidades.ml" 116 3831 3861 "Utilidades.ml" 116 3831 3884
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 116 3831 3852 "Utilidades.ml" 116 3831 3885
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 116 3831 3889 "Utilidades.ml" 116 3831 3890
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 116 3831 3890 "Utilidades.ml" 116 3831 3901
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 116 3831 3889 "Utilidades.ml" 116 3831 3901
+type(
+  string list
+)
+"Utilidades.ml" 116 3831 3852 "Utilidades.ml" 116 3831 3901
+type(
+  string list
+)
+"Utilidades.ml" 115 3819 3824 "Utilidades.ml" 117 3903 3911
+type(
+  unit
+)
+"Utilidades.ml" 120 3932 3938 "Utilidades.ml" 120 3932 3949
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 120 3932 3950 "Utilidades.ml" 120 3932 3952
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 120 3932 3954 "Utilidades.ml" 120 3932 3961
+type(
+  string
+)
+"Utilidades.ml" 120 3932 3961 "Utilidades.ml" 120 3932 3962
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 120 3932 3963 "Utilidades.ml" 120 3932 3971
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 120 3932 3972 "Utilidades.ml" 120 3932 3973
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 120 3932 3973 "Utilidades.ml" 120 3932 3978
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 120 3932 3972 "Utilidades.ml" 120 3932 3978
+type(
+  string list
+)
+"Utilidades.ml" 120 3932 3979 "Utilidades.ml" 120 3932 3980
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 120 3932 3962 "Utilidades.ml" 120 3932 3981
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 120 3932 3981 "Utilidades.ml" 120 3932 3982
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 120 3932 3982 "Utilidades.ml" 120 3932 3985
+type(
+  string
+)
+"Utilidades.ml" 120 3932 3962 "Utilidades.ml" 120 3932 3985
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 120 3932 3953 "Utilidades.ml" 120 3932 3986
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 120 3932 3990 "Utilidades.ml" 120 3932 3991
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 120 3932 3991 "Utilidades.ml" 120 3932 4002
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 120 3932 3990 "Utilidades.ml" 120 3932 4002
+type(
+  string list
+)
+"Utilidades.ml" 120 3932 3953 "Utilidades.ml" 120 3932 4002
+type(
+  string list
+)
+"Utilidades.ml" 119 3921 3926 "Utilidades.ml" 121 4010 4018
+type(
+  unit
+)
+"Utilidades.ml" 113 3790 3795 "Utilidades.ml" 122 4019 4026
+type(
+  unit
+)
+"Utilidades.ml" 112 3738 3740 "Utilidades.ml" 122 4019 4026
+type(
+  unit
+)
+"Utilidades.ml" 123 4028 4034 "Utilidades.ml" 123 4028 4042
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 123 4028 4043 "Utilidades.ml" 123 4028 4044
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 123 4028 4044 "Utilidades.ml" 123 4028 4049
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 123 4028 4043 "Utilidades.ml" 123 4028 4049
+type(
+  string list
+)
+"Utilidades.ml" 123 4028 4050 "Utilidades.ml" 123 4028 4051
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 123 4028 4033 "Utilidades.ml" 123 4028 4052
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 123 4028 4053 "Utilidades.ml" 123 4028 4054
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 123 4028 4055 "Utilidades.ml" 123 4028 4058
+type(
+  string
+)
+"Utilidades.ml" 123 4028 4033 "Utilidades.ml" 123 4028 4058
+type(
+  bool
+)
+"Utilidades.ml" 125 4076 4080 "Utilidades.ml" 125 4076 4091
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 125 4076 4092 "Utilidades.ml" 125 4076 4094
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 125 4076 4095 "Utilidades.ml" 125 4076 4117
+type(
+  string
+)
+"Utilidades.ml" 125 4076 4121 "Utilidades.ml" 125 4076 4122
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 125 4076 4122 "Utilidades.ml" 125 4076 4133
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 125 4076 4121 "Utilidades.ml" 125 4076 4133
+type(
+  string list
+)
+"Utilidades.ml" 125 4076 4095 "Utilidades.ml" 125 4076 4133
+type(
+  string list
+)
+"Utilidades.ml" 124 4065 4070 "Utilidades.ml" 126 4135 4142
+type(
+  unit
+)
+"Utilidades.ml" 123 4028 4030 "Utilidades.ml" 126 4135 4142
+type(
+  unit
+)
+"Utilidades.ml" 127 4144 4150 "Utilidades.ml" 127 4144 4158
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 127 4144 4159 "Utilidades.ml" 127 4144 4160
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 127 4144 4160 "Utilidades.ml" 127 4144 4165
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 127 4144 4159 "Utilidades.ml" 127 4144 4165
+type(
+  string list
+)
+"Utilidades.ml" 127 4144 4166 "Utilidades.ml" 127 4144 4167
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 127 4144 4149 "Utilidades.ml" 127 4144 4168
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 127 4144 4169 "Utilidades.ml" 127 4144 4170
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 127 4144 4171 "Utilidades.ml" 127 4144 4174
+type(
+  string
+)
+"Utilidades.ml" 127 4144 4149 "Utilidades.ml" 127 4144 4174
+type(
+  bool
+)
+"Utilidades.ml" 129 4192 4196 "Utilidades.ml" 129 4192 4207
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 129 4192 4208 "Utilidades.ml" 129 4192 4210
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 129 4192 4211 "Utilidades.ml" 129 4192 4234
+type(
+  string
+)
+"Utilidades.ml" 129 4192 4238 "Utilidades.ml" 129 4192 4239
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 129 4192 4239 "Utilidades.ml" 129 4192 4250
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 129 4192 4238 "Utilidades.ml" 129 4192 4250
+type(
+  string list
+)
+"Utilidades.ml" 129 4192 4211 "Utilidades.ml" 129 4192 4250
+type(
+  string list
+)
+"Utilidades.ml" 128 4181 4186 "Utilidades.ml" 130 4252 4259
+type(
+  unit
+)
+"Utilidades.ml" 127 4144 4146 "Utilidades.ml" 130 4252 4259
+type(
+  unit
+)
+"Utilidades.ml" 131 4261 4267 "Utilidades.ml" 131 4261 4275
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 131 4261 4276 "Utilidades.ml" 131 4261 4277
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 131 4261 4277 "Utilidades.ml" 131 4261 4282
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 131 4261 4276 "Utilidades.ml" 131 4261 4282
+type(
+  string list
+)
+"Utilidades.ml" 131 4261 4283 "Utilidades.ml" 131 4261 4284
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 131 4261 4266 "Utilidades.ml" 131 4261 4285
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 131 4261 4286 "Utilidades.ml" 131 4261 4287
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Utilidades.ml" 131 4261 4288 "Utilidades.ml" 131 4261 4291
+type(
+  string
+)
+"Utilidades.ml" 131 4261 4266 "Utilidades.ml" 131 4261 4291
+type(
+  bool
+)
+"Utilidades.ml" 133 4309 4313 "Utilidades.ml" 133 4309 4324
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 133 4309 4325 "Utilidades.ml" 133 4309 4327
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 133 4309 4328 "Utilidades.ml" 133 4309 4343
+type(
+  string
+)
+"Utilidades.ml" 133 4309 4347 "Utilidades.ml" 133 4309 4348
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 133 4309 4348 "Utilidades.ml" 133 4309 4359
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 133 4309 4347 "Utilidades.ml" 133 4309 4359
+type(
+  string list
+)
+"Utilidades.ml" 133 4309 4328 "Utilidades.ml" 133 4309 4359
+type(
+  string list
+)
+"Utilidades.ml" 132 4298 4303 "Utilidades.ml" 134 4361 4368
+type(
+  unit
+)
+"Utilidades.ml" 131 4261 4263 "Utilidades.ml" 134 4361 4368
+type(
+  unit
+)
+"Utilidades.ml" 135 4370 4375 "Utilidades.ml" 135 4370 4376
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 135 4370 4376 "Utilidades.ml" 135 4370 4388
+type(
+  bool ref
+)
+ident(
+  int_ref resposta_int "Utilidades.ml" 96 3213 3218 "Utilidades.ml" 96 3213 3230
+)
+"Utilidades.ml" 135 4370 4375 "Utilidades.ml" 135 4370 4388
+type(
+  bool
+)
+"Utilidades.ml" 137 4406 4410 "Utilidades.ml" 137 4406 4421
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 137 4406 4422 "Utilidades.ml" 137 4406 4424
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 137 4406 4426 "Utilidades.ml" 137 4406 4433
+type(
+  string
+)
+"Utilidades.ml" 137 4406 4433 "Utilidades.ml" 137 4406 4434
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 137 4406 4435 "Utilidades.ml" 137 4406 4443
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 137 4406 4444 "Utilidades.ml" 137 4406 4445
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 137 4406 4445 "Utilidades.ml" 137 4406 4450
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 137 4406 4444 "Utilidades.ml" 137 4406 4450
+type(
+  string list
+)
+"Utilidades.ml" 137 4406 4451 "Utilidades.ml" 137 4406 4452
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 137 4406 4434 "Utilidades.ml" 137 4406 4453
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 137 4406 4453 "Utilidades.ml" 137 4406 4454
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 137 4406 4454 "Utilidades.ml" 137 4406 4457
+type(
+  string
+)
+"Utilidades.ml" 137 4406 4434 "Utilidades.ml" 137 4406 4457
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 137 4406 4425 "Utilidades.ml" 137 4406 4458
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 137 4406 4462 "Utilidades.ml" 137 4406 4463
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 137 4406 4463 "Utilidades.ml" 137 4406 4474
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 137 4406 4462 "Utilidades.ml" 137 4406 4474
+type(
+  string list
+)
+"Utilidades.ml" 137 4406 4425 "Utilidades.ml" 137 4406 4474
+type(
+  string list
+)
+"Utilidades.ml" 136 4395 4400 "Utilidades.ml" 138 4476 4483
+type(
+  unit
+)
+"Utilidades.ml" 135 4370 4372 "Utilidades.ml" 138 4476 4483
+type(
+  unit
+)
+"Utilidades.ml" 139 4485 4490 "Utilidades.ml" 139 4485 4491
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 139 4485 4491 "Utilidades.ml" 139 4485 4503
+type(
+  bool ref
+)
+ident(
+  int_ref resposta_rac "Utilidades.ml" 97 3246 3251 "Utilidades.ml" 97 3246 3263
+)
+"Utilidades.ml" 139 4485 4490 "Utilidades.ml" 139 4485 4503
+type(
+  bool
+)
+"Utilidades.ml" 141 4521 4525 "Utilidades.ml" 141 4521 4536
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 141 4521 4537 "Utilidades.ml" 141 4521 4539
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 141 4521 4541 "Utilidades.ml" 141 4521 4548
+type(
+  string
+)
+"Utilidades.ml" 141 4521 4548 "Utilidades.ml" 141 4521 4549
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 141 4521 4550 "Utilidades.ml" 141 4521 4558
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"Utilidades.ml" 141 4521 4559 "Utilidades.ml" 141 4521 4560
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 141 4521 4560 "Utilidades.ml" 141 4521 4565
+type(
+  string list ref
+)
+ident(
+  int_ref lista "Utilidades.ml" 94 3139 3155 "Utilidades.ml" 94 3139 3160
+)
+"Utilidades.ml" 141 4521 4559 "Utilidades.ml" 141 4521 4565
+type(
+  string list
+)
+"Utilidades.ml" 141 4521 4566 "Utilidades.ml" 141 4521 4567
+type(
+  int
+)
+ident(
+  int_ref i "Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+)
+"Utilidades.ml" 141 4521 4549 "Utilidades.ml" 141 4521 4568
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 141 4521 4568 "Utilidades.ml" 141 4521 4569
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Utilidades.ml" 141 4521 4569 "Utilidades.ml" 141 4521 4572
+type(
+  string
+)
+"Utilidades.ml" 141 4521 4549 "Utilidades.ml" 141 4521 4572
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 141 4521 4540 "Utilidades.ml" 141 4521 4573
+call(
+  stack
+)
+type(
+  string
+)
+"Utilidades.ml" 141 4521 4577 "Utilidades.ml" 141 4521 4578
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 141 4521 4578 "Utilidades.ml" 141 4521 4589
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 141 4521 4577 "Utilidades.ml" 141 4521 4589
+type(
+  string list
+)
+"Utilidades.ml" 141 4521 4540 "Utilidades.ml" 141 4521 4589
+type(
+  string list
+)
+"Utilidades.ml" 140 4510 4515 "Utilidades.ml" 142 4591 4598
+type(
+  unit
+)
+"Utilidades.ml" 139 4485 4487 "Utilidades.ml" 142 4591 4598
+type(
+  unit
+)
+"Utilidades.ml" 143 4600 4602 "Utilidades.ml" 143 4600 4614
+type(
+  bool ref
+)
+ident(
+  int_ref resposta_rac "Utilidades.ml" 97 3246 3251 "Utilidades.ml" 97 3246 3263
+)
+"Utilidades.ml" 143 4600 4615 "Utilidades.ml" 143 4600 4617
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Utilidades.ml" 143 4600 4618 "Utilidades.ml" 143 4600 4623
+type(
+  bool
+)
+"Utilidades.ml" 143 4600 4602 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 139 4485 4487 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 135 4370 4372 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 131 4261 4263 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 127 4144 4146 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 123 4028 4030 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 112 3738 3740 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 111 3719 3721 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 103 3484 3486 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 102 3424 3426 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 101 3375 3377 "Utilidades.ml" 143 4600 4624
+type(
+  unit
+)
+"Utilidades.ml" 100 3344 3345 "Utilidades.ml" 144 4627 4632
+type(
+  unit
+)
+"Utilidades.ml" 145 4634 4635 "Utilidades.ml" 145 4634 4645
+type(
+  string list -> unit
+)
+ident(
+  int_ref print_list "Utilidades.ml" 4 43 51 "Utilidades.ml" 4 43 61
+)
+"Utilidades.ml" 145 4634 4647 "Utilidades.ml" 145 4634 4655
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"Utilidades.ml" 145 4634 4656 "Utilidades.ml" 145 4634 4657
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Utilidades.ml" 145 4634 4657 "Utilidades.ml" 145 4634 4668
+type(
+  string list ref
+)
+ident(
+  int_ref lista_final "Utilidades.ml" 94 3139 3161 "Utilidades.ml" 94 3139 3172
+)
+"Utilidades.ml" 145 4634 4656 "Utilidades.ml" 145 4634 4668
+type(
+  string list
+)
+"Utilidades.ml" 145 4634 4646 "Utilidades.ml" 145 4634 4669
+call(
+  stack
+)
+type(
+  string list
+)
+"Utilidades.ml" 145 4634 4635 "Utilidades.ml" 145 4634 4669
+call(
+  tail
+)
+type(
+  unit
+)
+"Utilidades.ml" 100 3344 3345 "Utilidades.ml" 145 4634 4669
+type(
+  unit
+)
+"Utilidades.ml" 99 3317 3318 "Utilidades.ml" 145 4634 4669
+type(
+  unit
+)
+"Utilidades.ml" 98 3279 3280 "Utilidades.ml" 145 4634 4669
+type(
+  unit
+)
+"Utilidades.ml" 97 3246 3247 "Utilidades.ml" 145 4634 4669
+type(
+  unit
+)
+"Utilidades.ml" 96 3213 3214 "Utilidades.ml" 145 4634 4669
+type(
+  unit
+)
+"Utilidades.ml" 95 3176 3177 "Utilidades.ml" 145 4634 4669
+type(
+  unit
+)
+"Utilidades.ml" 94 3139 3151 "Utilidades.ml" 145 4634 4669
+type(
+  string list ref -> string list ref -> unit
+)

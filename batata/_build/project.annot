@@ -1,0 +1,90 @@
+"project.ml" 6 123 127 "project.ml" 6 123 138
+type(
+  char list
+)
+ident(
+  def listaLogico "project.ml" 7 157 157 "project.ml" 1 0 -1
+)
+"project.ml" 6 123 142 "project.ml" 6 123 145
+type(
+  char
+)
+"project.ml" 6 123 146 "project.ml" 6 123 149
+type(
+  char
+)
+"project.ml" 6 123 150 "project.ml" 6 123 153
+type(
+  char
+)
+"project.ml" 6 123 141 "project.ml" 6 123 154
+type(
+  char list
+)
+"project.ml" 7 157 161 "project.ml" 7 157 176
+type(
+  char list
+)
+ident(
+  def listaAritmetico "project.ml" 8 207 207 "project.ml" 1 0 -1
+)
+"project.ml" 7 157 180 "project.ml" 7 157 183
+type(
+  char
+)
+"project.ml" 7 157 184 "project.ml" 7 157 187
+type(
+  char
+)
+"project.ml" 7 157 188 "project.ml" 7 157 191
+type(
+  char
+)
+"project.ml" 7 157 192 "project.ml" 7 157 195
+type(
+  char
+)
+"project.ml" 7 157 196 "project.ml" 7 157 199
+type(
+  char
+)
+"project.ml" 7 157 200 "project.ml" 7 157 203
+type(
+  char
+)
+"project.ml" 7 157 179 "project.ml" 7 157 204
+type(
+  char list
+)
+"project.ml" 8 207 211 "project.ml" 8 207 220
+type(
+  string
+)
+ident(
+  def expressao "project.ml" 9 249 249 "project.ml" 1 0 -1
+)
+"project.ml" 8 207 223 "project.ml" 8 207 246
+type(
+  string
+)
+"project.ml" 9 249 249 "project.ml" 9 249 260
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utilidades.separa_hack
+)
+"project.ml" 9 249 261 "project.ml" 9 249 270
+type(
+  string
+)
+ident(
+  int_ref expressao "project.ml" 8 207 211 "project.ml" 8 207 220
+)
+"project.ml" 9 249 249 "project.ml" 9 249 270
+call(
+  stack
+)
+type(
+  unit
+)

@@ -1,0 +1,4006 @@
+"AvaliaSintaxe.ml" 2 75 79 "AvaliaSintaxe.ml" 2 75 86
+type(
+  string -> char list
+)
+ident(
+  def explode "AvaliaSintaxe.ml" 8 227 227 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 2 75 87 "AvaliaSintaxe.ml" 2 75 88
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 3 91 92 "AvaliaSintaxe.ml" 5 159 187
+)
+"AvaliaSintaxe.ml" 3 91 100 "AvaliaSintaxe.ml" 3 91 103
+type(
+  int -> char list -> char list
+)
+ident(
+  def exp "AvaliaSintaxe.ml" 3 91 92 "AvaliaSintaxe.ml" 5 159 187
+)
+"AvaliaSintaxe.ml" 3 91 104 "AvaliaSintaxe.ml" 3 91 105
+type(
+  int
+)
+ident(
+  def i "AvaliaSintaxe.ml" 3 91 106 "AvaliaSintaxe.ml" 4 110 155
+)
+"AvaliaSintaxe.ml" 3 91 106 "AvaliaSintaxe.ml" 3 91 107
+type(
+  char list
+)
+ident(
+  def l "AvaliaSintaxe.ml" 4 110 112 "AvaliaSintaxe.ml" 4 110 155
+)
+"AvaliaSintaxe.ml" 4 110 115 "AvaliaSintaxe.ml" 4 110 116
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 3 91 104 "AvaliaSintaxe.ml" 3 91 105
+)
+"AvaliaSintaxe.ml" 4 110 116 "AvaliaSintaxe.ml" 4 110 117
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"AvaliaSintaxe.ml" 4 110 117 "AvaliaSintaxe.ml" 4 110 118
+type(
+  int
+)
+"AvaliaSintaxe.ml" 4 110 115 "AvaliaSintaxe.ml" 4 110 118
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 4 110 124 "AvaliaSintaxe.ml" 4 110 125
+type(
+  char list
+)
+ident(
+  int_ref l "AvaliaSintaxe.ml" 3 91 106 "AvaliaSintaxe.ml" 3 91 107
+)
+"AvaliaSintaxe.ml" 4 110 131 "AvaliaSintaxe.ml" 4 110 134
+type(
+  int -> char list -> char list
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 3 91 100 "AvaliaSintaxe.ml" 3 91 103
+)
+"AvaliaSintaxe.ml" 4 110 136 "AvaliaSintaxe.ml" 4 110 137
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 3 91 104 "AvaliaSintaxe.ml" 3 91 105
+)
+"AvaliaSintaxe.ml" 4 110 138 "AvaliaSintaxe.ml" 4 110 139
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 4 110 140 "AvaliaSintaxe.ml" 4 110 141
+type(
+  int
+)
+"AvaliaSintaxe.ml" 4 110 135 "AvaliaSintaxe.ml" 4 110 142
+type(
+  int
+)
+"AvaliaSintaxe.ml" 4 110 144 "AvaliaSintaxe.ml" 4 110 145
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 2 75 87 "AvaliaSintaxe.ml" 2 75 88
+)
+"AvaliaSintaxe.ml" 4 110 147 "AvaliaSintaxe.ml" 4 110 148
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 3 91 104 "AvaliaSintaxe.ml" 3 91 105
+)
+"AvaliaSintaxe.ml" 4 110 144 "AvaliaSintaxe.ml" 4 110 149
+type(
+  char
+)
+"AvaliaSintaxe.ml" 4 110 153 "AvaliaSintaxe.ml" 4 110 154
+type(
+  char list
+)
+ident(
+  int_ref l "AvaliaSintaxe.ml" 3 91 106 "AvaliaSintaxe.ml" 3 91 107
+)
+"AvaliaSintaxe.ml" 4 110 143 "AvaliaSintaxe.ml" 4 110 155
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 4 110 131 "AvaliaSintaxe.ml" 4 110 155
+call(
+  tail
+)
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 4 110 112 "AvaliaSintaxe.ml" 4 110 155
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 5 159 160 "AvaliaSintaxe.ml" 5 159 163
+type(
+  int -> char list -> char list
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 3 91 100 "AvaliaSintaxe.ml" 3 91 103
+)
+"AvaliaSintaxe.ml" 5 159 165 "AvaliaSintaxe.ml" 5 159 178
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"AvaliaSintaxe.ml" 5 159 179 "AvaliaSintaxe.ml" 5 159 180
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 2 75 87 "AvaliaSintaxe.ml" 2 75 88
+)
+"AvaliaSintaxe.ml" 5 159 165 "AvaliaSintaxe.ml" 5 159 180
+type(
+  int
+)
+"AvaliaSintaxe.ml" 5 159 181 "AvaliaSintaxe.ml" 5 159 182
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 5 159 182 "AvaliaSintaxe.ml" 5 159 183
+type(
+  int
+)
+"AvaliaSintaxe.ml" 5 159 164 "AvaliaSintaxe.ml" 5 159 184
+type(
+  int
+)
+"AvaliaSintaxe.ml" 5 159 185 "AvaliaSintaxe.ml" 5 159 187
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 5 159 160 "AvaliaSintaxe.ml" 5 159 187
+call(
+  tail
+)
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 3 91 92 "AvaliaSintaxe.ml" 5 159 187
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 8 227 231 "AvaliaSintaxe.ml" 8 227 245
+type(
+  char -> bool
+)
+ident(
+  def e_variavel_min "AvaliaSintaxe.ml" 11 370 370 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 8 227 246 "AvaliaSintaxe.ml" 8 227 247
+type(
+  char
+)
+ident(
+  def c "AvaliaSintaxe.ml" 8 227 250 "AvaliaSintaxe.ml" 8 227 328
+)
+"AvaliaSintaxe.ml" 8 227 252 "AvaliaSintaxe.ml" 8 227 263
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 8 227 263 "AvaliaSintaxe.ml" 8 227 266
+type(
+  char
+)
+ident(
+  int_ref c "AvaliaSintaxe.ml" 8 227 246 "AvaliaSintaxe.ml" 8 227 247
+)
+"AvaliaSintaxe.ml" 8 227 252 "AvaliaSintaxe.ml" 8 227 266
+type(
+  int
+)
+"AvaliaSintaxe.ml" 8 227 267 "AvaliaSintaxe.ml" 8 227 269
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"AvaliaSintaxe.ml" 8 227 270 "AvaliaSintaxe.ml" 8 227 281
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 8 227 281 "AvaliaSintaxe.ml" 8 227 286
+type(
+  char
+)
+"AvaliaSintaxe.ml" 8 227 270 "AvaliaSintaxe.ml" 8 227 286
+type(
+  int
+)
+"AvaliaSintaxe.ml" 8 227 251 "AvaliaSintaxe.ml" 8 227 287
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 8 227 288 "AvaliaSintaxe.ml" 8 227 290
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 8 227 292 "AvaliaSintaxe.ml" 8 227 303
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 8 227 303 "AvaliaSintaxe.ml" 8 227 306
+type(
+  char
+)
+ident(
+  int_ref c "AvaliaSintaxe.ml" 8 227 246 "AvaliaSintaxe.ml" 8 227 247
+)
+"AvaliaSintaxe.ml" 8 227 292 "AvaliaSintaxe.ml" 8 227 306
+type(
+  int
+)
+"AvaliaSintaxe.ml" 8 227 307 "AvaliaSintaxe.ml" 8 227 309
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"AvaliaSintaxe.ml" 8 227 310 "AvaliaSintaxe.ml" 8 227 321
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 8 227 321 "AvaliaSintaxe.ml" 8 227 326
+type(
+  char
+)
+"AvaliaSintaxe.ml" 8 227 310 "AvaliaSintaxe.ml" 8 227 326
+type(
+  int
+)
+"AvaliaSintaxe.ml" 8 227 291 "AvaliaSintaxe.ml" 8 227 327
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 8 227 250 "AvaliaSintaxe.ml" 8 227 328
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 11 370 374 "AvaliaSintaxe.ml" 11 370 388
+type(
+  char -> bool
+)
+ident(
+  def e_variavel_max "AvaliaSintaxe.ml" 14 504 504 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 11 370 389 "AvaliaSintaxe.ml" 11 370 390
+type(
+  char
+)
+ident(
+  def c "AvaliaSintaxe.ml" 11 370 393 "AvaliaSintaxe.ml" 11 370 471
+)
+"AvaliaSintaxe.ml" 11 370 395 "AvaliaSintaxe.ml" 11 370 406
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 11 370 406 "AvaliaSintaxe.ml" 11 370 409
+type(
+  char
+)
+ident(
+  int_ref c "AvaliaSintaxe.ml" 11 370 389 "AvaliaSintaxe.ml" 11 370 390
+)
+"AvaliaSintaxe.ml" 11 370 395 "AvaliaSintaxe.ml" 11 370 409
+type(
+  int
+)
+"AvaliaSintaxe.ml" 11 370 410 "AvaliaSintaxe.ml" 11 370 412
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"AvaliaSintaxe.ml" 11 370 413 "AvaliaSintaxe.ml" 11 370 424
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 11 370 424 "AvaliaSintaxe.ml" 11 370 429
+type(
+  char
+)
+"AvaliaSintaxe.ml" 11 370 413 "AvaliaSintaxe.ml" 11 370 429
+type(
+  int
+)
+"AvaliaSintaxe.ml" 11 370 394 "AvaliaSintaxe.ml" 11 370 430
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 11 370 431 "AvaliaSintaxe.ml" 11 370 433
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 11 370 435 "AvaliaSintaxe.ml" 11 370 446
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 11 370 446 "AvaliaSintaxe.ml" 11 370 449
+type(
+  char
+)
+ident(
+  int_ref c "AvaliaSintaxe.ml" 11 370 389 "AvaliaSintaxe.ml" 11 370 390
+)
+"AvaliaSintaxe.ml" 11 370 435 "AvaliaSintaxe.ml" 11 370 449
+type(
+  int
+)
+"AvaliaSintaxe.ml" 11 370 450 "AvaliaSintaxe.ml" 11 370 452
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"AvaliaSintaxe.ml" 11 370 453 "AvaliaSintaxe.ml" 11 370 464
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 11 370 464 "AvaliaSintaxe.ml" 11 370 469
+type(
+  char
+)
+"AvaliaSintaxe.ml" 11 370 453 "AvaliaSintaxe.ml" 11 370 469
+type(
+  int
+)
+"AvaliaSintaxe.ml" 11 370 434 "AvaliaSintaxe.ml" 11 370 470
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 11 370 393 "AvaliaSintaxe.ml" 11 370 471
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 14 504 508 "AvaliaSintaxe.ml" 14 504 516
+type(
+  char -> bool
+)
+ident(
+  def e_digito "AvaliaSintaxe.ml" 18 685 685 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 14 504 517 "AvaliaSintaxe.ml" 14 504 518
+type(
+  char
+)
+ident(
+  def c "AvaliaSintaxe.ml" 14 504 521 "AvaliaSintaxe.ml" 15 553 610
+)
+"AvaliaSintaxe.ml" 14 504 525 "AvaliaSintaxe.ml" 14 504 529
+type(
+  int
+)
+ident(
+  def zero "AvaliaSintaxe.ml" 15 553 554 "AvaliaSintaxe.ml" 15 553 610
+)
+"AvaliaSintaxe.ml" 14 504 532 "AvaliaSintaxe.ml" 14 504 543
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 14 504 543 "AvaliaSintaxe.ml" 14 504 548
+type(
+  char
+)
+"AvaliaSintaxe.ml" 14 504 532 "AvaliaSintaxe.ml" 14 504 548
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 554 "AvaliaSintaxe.ml" 15 553 565
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 15 553 565 "AvaliaSintaxe.ml" 15 553 568
+type(
+  char
+)
+ident(
+  int_ref c "AvaliaSintaxe.ml" 14 504 517 "AvaliaSintaxe.ml" 14 504 518
+)
+"AvaliaSintaxe.ml" 15 553 554 "AvaliaSintaxe.ml" 15 553 568
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 569 "AvaliaSintaxe.ml" 15 553 570
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 15 553 571 "AvaliaSintaxe.ml" 15 553 575
+type(
+  int
+)
+ident(
+  int_ref zero "AvaliaSintaxe.ml" 14 504 525 "AvaliaSintaxe.ml" 14 504 529
+)
+"AvaliaSintaxe.ml" 15 553 554 "AvaliaSintaxe.ml" 15 553 575
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 576 "AvaliaSintaxe.ml" 15 553 578
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"AvaliaSintaxe.ml" 15 553 579 "AvaliaSintaxe.ml" 15 553 580
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 554 "AvaliaSintaxe.ml" 15 553 580
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 15 553 581 "AvaliaSintaxe.ml" 15 553 583
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 15 553 584 "AvaliaSintaxe.ml" 15 553 595
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"AvaliaSintaxe.ml" 15 553 595 "AvaliaSintaxe.ml" 15 553 598
+type(
+  char
+)
+ident(
+  int_ref c "AvaliaSintaxe.ml" 14 504 517 "AvaliaSintaxe.ml" 14 504 518
+)
+"AvaliaSintaxe.ml" 15 553 584 "AvaliaSintaxe.ml" 15 553 598
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 599 "AvaliaSintaxe.ml" 15 553 600
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 15 553 601 "AvaliaSintaxe.ml" 15 553 605
+type(
+  int
+)
+ident(
+  int_ref zero "AvaliaSintaxe.ml" 14 504 525 "AvaliaSintaxe.ml" 14 504 529
+)
+"AvaliaSintaxe.ml" 15 553 584 "AvaliaSintaxe.ml" 15 553 605
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 606 "AvaliaSintaxe.ml" 15 553 608
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"AvaliaSintaxe.ml" 15 553 609 "AvaliaSintaxe.ml" 15 553 610
+type(
+  int
+)
+"AvaliaSintaxe.ml" 15 553 584 "AvaliaSintaxe.ml" 15 553 610
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 15 553 554 "AvaliaSintaxe.ml" 15 553 610
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 14 504 521 "AvaliaSintaxe.ml" 15 553 610
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 18 685 689 "AvaliaSintaxe.ml" 18 685 697
+type(
+  string -> char list -> char ref -> bool
+)
+ident(
+  def verifica "AvaliaSintaxe.ml" 40 1320 1320 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 18 685 704 "AvaliaSintaxe.ml" 18 685 705
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 18 685 706 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 18 685 706 "AvaliaSintaxe.ml" 18 685 711
+type(
+  char list
+)
+ident(
+  def lista "AvaliaSintaxe.ml" 18 685 712 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 18 685 712 "AvaliaSintaxe.ml" 18 685 720
+type(
+  char ref
+)
+ident(
+  def resposta "AvaliaSintaxe.ml" 19 724 726 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 19 724 730 "AvaliaSintaxe.ml" 19 724 742
+type(
+  char list
+)
+ident(
+  def lista_string "AvaliaSintaxe.ml" 20 758 760 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 19 724 745 "AvaliaSintaxe.ml" 19 724 752
+type(
+  string -> char list
+)
+ident(
+  int_ref explode "AvaliaSintaxe.ml" 2 75 79 "AvaliaSintaxe.ml" 2 75 86
+)
+"AvaliaSintaxe.ml" 19 724 753 "AvaliaSintaxe.ml" 19 724 754
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 18 685 704 "AvaliaSintaxe.ml" 18 685 705
+)
+"AvaliaSintaxe.ml" 19 724 745 "AvaliaSintaxe.ml" 19 724 754
+call(
+  stack
+)
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 20 758 764 "AvaliaSintaxe.ml" 20 758 784
+type(
+  int
+)
+ident(
+  def tamanho_lista_string "AvaliaSintaxe.ml" 21 815 817 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 20 758 787 "AvaliaSintaxe.ml" 20 758 798
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"AvaliaSintaxe.ml" 20 758 799 "AvaliaSintaxe.ml" 20 758 811
+type(
+  char list
+)
+ident(
+  int_ref lista_string "AvaliaSintaxe.ml" 19 724 730 "AvaliaSintaxe.ml" 19 724 742
+)
+"AvaliaSintaxe.ml" 20 758 787 "AvaliaSintaxe.ml" 20 758 811
+call(
+  stack
+)
+type(
+  int
+)
+"AvaliaSintaxe.ml" 21 815 821 "AvaliaSintaxe.ml" 21 815 834
+type(
+  int
+)
+ident(
+  def tamanho_lista "AvaliaSintaxe.ml" 22 860 862 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 21 815 837 "AvaliaSintaxe.ml" 21 815 848
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"AvaliaSintaxe.ml" 21 815 849 "AvaliaSintaxe.ml" 21 815 854
+type(
+  char list
+)
+ident(
+  int_ref lista "AvaliaSintaxe.ml" 18 685 706 "AvaliaSintaxe.ml" 18 685 711
+)
+"AvaliaSintaxe.ml" 21 815 837 "AvaliaSintaxe.ml" 21 815 854
+call(
+  stack
+)
+type(
+  int
+)
+"AvaliaSintaxe.ml" 22 860 866 "AvaliaSintaxe.ml" 22 860 870
+type(
+  char ref
+)
+ident(
+  def char "AvaliaSintaxe.ml" 23 884 886 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 22 860 873 "AvaliaSintaxe.ml" 22 860 876
+type(
+  char -> char ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 22 860 877 "AvaliaSintaxe.ml" 22 860 880
+type(
+  char
+)
+"AvaliaSintaxe.ml" 22 860 873 "AvaliaSintaxe.ml" 22 860 880
+type(
+  char ref
+)
+"AvaliaSintaxe.ml" 23 884 890 "AvaliaSintaxe.ml" 23 884 896
+type(
+  char ref
+)
+ident(
+  def existe "AvaliaSintaxe.ml" 24 910 911 "AvaliaSintaxe.ml" 36 1187 1205
+)
+"AvaliaSintaxe.ml" 23 884 899 "AvaliaSintaxe.ml" 23 884 902
+type(
+  char -> char ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 23 884 903 "AvaliaSintaxe.ml" 23 884 906
+type(
+  char
+)
+"AvaliaSintaxe.ml" 23 884 899 "AvaliaSintaxe.ml" 23 884 906
+type(
+  char ref
+)
+"AvaliaSintaxe.ml" 25 915 925 "AvaliaSintaxe.ml" 25 915 926
+type(
+  int
+)
+"AvaliaSintaxe.ml" 25 915 930 "AvaliaSintaxe.ml" 25 915 950
+type(
+  int
+)
+ident(
+  int_ref tamanho_lista_string "AvaliaSintaxe.ml" 20 758 764 "AvaliaSintaxe.ml" 20 758 784
+)
+"AvaliaSintaxe.ml" 25 915 951 "AvaliaSintaxe.ml" 25 915 952
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 25 915 953 "AvaliaSintaxe.ml" 25 915 954
+type(
+  int
+)
+"AvaliaSintaxe.ml" 25 915 930 "AvaliaSintaxe.ml" 25 915 954
+type(
+  int
+)
+"AvaliaSintaxe.ml" 26 958 969 "AvaliaSintaxe.ml" 26 958 970
+type(
+  int
+)
+"AvaliaSintaxe.ml" 26 958 974 "AvaliaSintaxe.ml" 26 958 987
+type(
+  int
+)
+ident(
+  int_ref tamanho_lista "AvaliaSintaxe.ml" 21 815 821 "AvaliaSintaxe.ml" 21 815 834
+)
+"AvaliaSintaxe.ml" 26 958 988 "AvaliaSintaxe.ml" 26 958 989
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 26 958 990 "AvaliaSintaxe.ml" 26 958 991
+type(
+  int
+)
+"AvaliaSintaxe.ml" 26 958 974 "AvaliaSintaxe.ml" 26 958 991
+type(
+  int
+)
+"AvaliaSintaxe.ml" 27 995 1000 "AvaliaSintaxe.ml" 27 995 1004
+type(
+  char ref
+)
+ident(
+  int_ref char "AvaliaSintaxe.ml" 22 860 866 "AvaliaSintaxe.ml" 22 860 870
+)
+"AvaliaSintaxe.ml" 27 995 1005 "AvaliaSintaxe.ml" 27 995 1007
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 27 995 1008 "AvaliaSintaxe.ml" 27 995 1016
+type(
+  char list -> int -> char
+)
+ident(
+  ext_ref List.nth
+)
+"AvaliaSintaxe.ml" 27 995 1017 "AvaliaSintaxe.ml" 27 995 1029
+type(
+  char list
+)
+ident(
+  int_ref lista_string "AvaliaSintaxe.ml" 19 724 730 "AvaliaSintaxe.ml" 19 724 742
+)
+"AvaliaSintaxe.ml" 27 995 1030 "AvaliaSintaxe.ml" 27 995 1031
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 25 915 917 "AvaliaSintaxe.ml" 34 1172 1178
+)
+"AvaliaSintaxe.ml" 27 995 1008 "AvaliaSintaxe.ml" 27 995 1031
+call(
+  stack
+)
+type(
+  char
+)
+"AvaliaSintaxe.ml" 27 995 1000 "AvaliaSintaxe.ml" 27 995 1031
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 28 1033 1038 "AvaliaSintaxe.ml" 28 1033 1044
+type(
+  char ref
+)
+ident(
+  int_ref existe "AvaliaSintaxe.ml" 23 884 890 "AvaliaSintaxe.ml" 23 884 896
+)
+"AvaliaSintaxe.ml" 28 1033 1045 "AvaliaSintaxe.ml" 28 1033 1047
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 28 1033 1048 "AvaliaSintaxe.ml" 28 1033 1056
+type(
+  char list -> int -> char
+)
+ident(
+  ext_ref List.nth
+)
+"AvaliaSintaxe.ml" 28 1033 1057 "AvaliaSintaxe.ml" 28 1033 1062
+type(
+  char list
+)
+ident(
+  int_ref lista "AvaliaSintaxe.ml" 18 685 706 "AvaliaSintaxe.ml" 18 685 711
+)
+"AvaliaSintaxe.ml" 28 1033 1063 "AvaliaSintaxe.ml" 28 1033 1064
+type(
+  int
+)
+ident(
+  int_ref j "AvaliaSintaxe.ml" 26 958 961 "AvaliaSintaxe.ml" 33 1164 1171
+)
+"AvaliaSintaxe.ml" 28 1033 1048 "AvaliaSintaxe.ml" 28 1033 1064
+call(
+  stack
+)
+type(
+  char
+)
+"AvaliaSintaxe.ml" 28 1033 1038 "AvaliaSintaxe.ml" 28 1033 1064
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 29 1066 1071 "AvaliaSintaxe.ml" 29 1066 1079
+type(
+  char ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 18 685 712 "AvaliaSintaxe.ml" 18 685 720
+)
+"AvaliaSintaxe.ml" 29 1066 1080 "AvaliaSintaxe.ml" 29 1066 1082
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 29 1066 1086 "AvaliaSintaxe.ml" 29 1066 1090
+type(
+  char ref
+)
+ident(
+  int_ref char "AvaliaSintaxe.ml" 22 860 866 "AvaliaSintaxe.ml" 22 860 870
+)
+"AvaliaSintaxe.ml" 29 1066 1091 "AvaliaSintaxe.ml" 29 1066 1092
+type(
+  char ref -> char ref -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 29 1066 1093 "AvaliaSintaxe.ml" 29 1066 1099
+type(
+  char ref
+)
+ident(
+  int_ref existe "AvaliaSintaxe.ml" 23 884 890 "AvaliaSintaxe.ml" 23 884 896
+)
+"AvaliaSintaxe.ml" 29 1066 1086 "AvaliaSintaxe.ml" 29 1066 1099
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 30 1100 1108 "AvaliaSintaxe.ml" 30 1100 1111
+type(
+  char
+)
+"AvaliaSintaxe.ml" 31 1112 1120 "AvaliaSintaxe.ml" 31 1112 1123
+type(
+  char
+)
+"AvaliaSintaxe.ml" 29 1066 1083 "AvaliaSintaxe.ml" 31 1112 1123
+type(
+  char
+)
+"AvaliaSintaxe.ml" 29 1066 1071 "AvaliaSintaxe.ml" 31 1112 1123
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 32 1125 1131 "AvaliaSintaxe.ml" 32 1125 1132
+type(
+  char ref -> char
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 32 1125 1132 "AvaliaSintaxe.ml" 32 1125 1140
+type(
+  char ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 18 685 712 "AvaliaSintaxe.ml" 18 685 720
+)
+"AvaliaSintaxe.ml" 32 1125 1131 "AvaliaSintaxe.ml" 32 1125 1140
+type(
+  char
+)
+"AvaliaSintaxe.ml" 32 1125 1141 "AvaliaSintaxe.ml" 32 1125 1142
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 32 1125 1143 "AvaliaSintaxe.ml" 32 1125 1146
+type(
+  char
+)
+"AvaliaSintaxe.ml" 32 1125 1131 "AvaliaSintaxe.ml" 32 1125 1146
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 32 1125 1152 "AvaliaSintaxe.ml" 32 1125 1157
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"AvaliaSintaxe.ml" 32 1125 1158 "AvaliaSintaxe.ml" 32 1125 1162
+type(
+  exn
+)
+"AvaliaSintaxe.ml" 32 1125 1152 "AvaliaSintaxe.ml" 32 1125 1162
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 32 1125 1128 "AvaliaSintaxe.ml" 32 1125 1163
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 29 1066 1071 "AvaliaSintaxe.ml" 32 1125 1163
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 28 1033 1038 "AvaliaSintaxe.ml" 32 1125 1163
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 27 995 1000 "AvaliaSintaxe.ml" 32 1125 1163
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 26 958 961 "AvaliaSintaxe.ml" 33 1164 1171
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 25 915 917 "AvaliaSintaxe.ml" 34 1172 1178
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 35 1180 1181 "AvaliaSintaxe.ml" 35 1180 1186
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 25 915 917 "AvaliaSintaxe.ml" 35 1180 1186
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 36 1187 1193 "AvaliaSintaxe.ml" 36 1187 1197
+type(
+  exn
+)
+"AvaliaSintaxe.ml" 36 1187 1201 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 24 910 911 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 23 884 886 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 22 860 862 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 21 815 817 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 20 758 760 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 19 724 726 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 18 685 700 "AvaliaSintaxe.ml" 36 1187 1205
+type(
+  string -> char list -> char ref -> bool
+)
+"AvaliaSintaxe.ml" 40 1320 1324 "AvaliaSintaxe.ml" 40 1320 1335
+type(
+  string -> char list -> int ref -> bool
+)
+ident(
+  def pega_indice "AvaliaSintaxe.ml" 62 1885 1885 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 40 1320 1342 "AvaliaSintaxe.ml" 40 1320 1343
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 40 1320 1344 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 40 1320 1344 "AvaliaSintaxe.ml" 40 1320 1349
+type(
+  char list
+)
+ident(
+  def lista "AvaliaSintaxe.ml" 40 1320 1350 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 40 1320 1350 "AvaliaSintaxe.ml" 40 1320 1358
+type(
+  int ref
+)
+ident(
+  def resposta "AvaliaSintaxe.ml" 41 1362 1364 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 41 1362 1368 "AvaliaSintaxe.ml" 41 1362 1380
+type(
+  char list
+)
+ident(
+  def lista_string "AvaliaSintaxe.ml" 42 1396 1398 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 41 1362 1383 "AvaliaSintaxe.ml" 41 1362 1390
+type(
+  string -> char list
+)
+ident(
+  int_ref explode "AvaliaSintaxe.ml" 2 75 79 "AvaliaSintaxe.ml" 2 75 86
+)
+"AvaliaSintaxe.ml" 41 1362 1391 "AvaliaSintaxe.ml" 41 1362 1392
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 40 1320 1342 "AvaliaSintaxe.ml" 40 1320 1343
+)
+"AvaliaSintaxe.ml" 41 1362 1383 "AvaliaSintaxe.ml" 41 1362 1392
+call(
+  stack
+)
+type(
+  char list
+)
+"AvaliaSintaxe.ml" 42 1396 1402 "AvaliaSintaxe.ml" 42 1396 1422
+type(
+  int
+)
+ident(
+  def tamanho_lista_string "AvaliaSintaxe.ml" 43 1453 1455 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 42 1396 1425 "AvaliaSintaxe.ml" 42 1396 1436
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"AvaliaSintaxe.ml" 42 1396 1437 "AvaliaSintaxe.ml" 42 1396 1449
+type(
+  char list
+)
+ident(
+  int_ref lista_string "AvaliaSintaxe.ml" 41 1362 1368 "AvaliaSintaxe.ml" 41 1362 1380
+)
+"AvaliaSintaxe.ml" 42 1396 1425 "AvaliaSintaxe.ml" 42 1396 1449
+call(
+  stack
+)
+type(
+  int
+)
+"AvaliaSintaxe.ml" 43 1453 1459 "AvaliaSintaxe.ml" 43 1453 1472
+type(
+  int
+)
+ident(
+  def tamanho_lista "AvaliaSintaxe.ml" 44 1498 1500 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 43 1453 1475 "AvaliaSintaxe.ml" 43 1453 1486
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"AvaliaSintaxe.ml" 43 1453 1487 "AvaliaSintaxe.ml" 43 1453 1492
+type(
+  char list
+)
+ident(
+  int_ref lista "AvaliaSintaxe.ml" 40 1320 1344 "AvaliaSintaxe.ml" 40 1320 1349
+)
+"AvaliaSintaxe.ml" 43 1453 1475 "AvaliaSintaxe.ml" 43 1453 1492
+call(
+  stack
+)
+type(
+  int
+)
+"AvaliaSintaxe.ml" 44 1498 1504 "AvaliaSintaxe.ml" 44 1498 1508
+type(
+  char ref
+)
+ident(
+  def char "AvaliaSintaxe.ml" 45 1522 1524 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 44 1498 1511 "AvaliaSintaxe.ml" 44 1498 1514
+type(
+  char -> char ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 44 1498 1515 "AvaliaSintaxe.ml" 44 1498 1518
+type(
+  char
+)
+"AvaliaSintaxe.ml" 44 1498 1511 "AvaliaSintaxe.ml" 44 1498 1518
+type(
+  char ref
+)
+"AvaliaSintaxe.ml" 45 1522 1528 "AvaliaSintaxe.ml" 45 1522 1534
+type(
+  char ref
+)
+ident(
+  def existe "AvaliaSintaxe.ml" 46 1548 1549 "AvaliaSintaxe.ml" 58 1820 1838
+)
+"AvaliaSintaxe.ml" 45 1522 1537 "AvaliaSintaxe.ml" 45 1522 1540
+type(
+  char -> char ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 45 1522 1541 "AvaliaSintaxe.ml" 45 1522 1544
+type(
+  char
+)
+"AvaliaSintaxe.ml" 45 1522 1537 "AvaliaSintaxe.ml" 45 1522 1544
+type(
+  char ref
+)
+"AvaliaSintaxe.ml" 47 1553 1563 "AvaliaSintaxe.ml" 47 1553 1564
+type(
+  int
+)
+"AvaliaSintaxe.ml" 47 1553 1568 "AvaliaSintaxe.ml" 47 1553 1588
+type(
+  int
+)
+ident(
+  int_ref tamanho_lista_string "AvaliaSintaxe.ml" 42 1396 1402 "AvaliaSintaxe.ml" 42 1396 1422
+)
+"AvaliaSintaxe.ml" 47 1553 1589 "AvaliaSintaxe.ml" 47 1553 1590
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 47 1553 1591 "AvaliaSintaxe.ml" 47 1553 1592
+type(
+  int
+)
+"AvaliaSintaxe.ml" 47 1553 1568 "AvaliaSintaxe.ml" 47 1553 1592
+type(
+  int
+)
+"AvaliaSintaxe.ml" 48 1596 1607 "AvaliaSintaxe.ml" 48 1596 1608
+type(
+  int
+)
+"AvaliaSintaxe.ml" 48 1596 1612 "AvaliaSintaxe.ml" 48 1596 1625
+type(
+  int
+)
+ident(
+  int_ref tamanho_lista "AvaliaSintaxe.ml" 43 1453 1459 "AvaliaSintaxe.ml" 43 1453 1472
+)
+"AvaliaSintaxe.ml" 48 1596 1626 "AvaliaSintaxe.ml" 48 1596 1627
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 48 1596 1628 "AvaliaSintaxe.ml" 48 1596 1629
+type(
+  int
+)
+"AvaliaSintaxe.ml" 48 1596 1612 "AvaliaSintaxe.ml" 48 1596 1629
+type(
+  int
+)
+"AvaliaSintaxe.ml" 49 1633 1638 "AvaliaSintaxe.ml" 49 1633 1642
+type(
+  char ref
+)
+ident(
+  int_ref char "AvaliaSintaxe.ml" 44 1498 1504 "AvaliaSintaxe.ml" 44 1498 1508
+)
+"AvaliaSintaxe.ml" 49 1633 1643 "AvaliaSintaxe.ml" 49 1633 1645
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 49 1633 1646 "AvaliaSintaxe.ml" 49 1633 1654
+type(
+  char list -> int -> char
+)
+ident(
+  ext_ref List.nth
+)
+"AvaliaSintaxe.ml" 49 1633 1655 "AvaliaSintaxe.ml" 49 1633 1667
+type(
+  char list
+)
+ident(
+  int_ref lista_string "AvaliaSintaxe.ml" 41 1362 1368 "AvaliaSintaxe.ml" 41 1362 1380
+)
+"AvaliaSintaxe.ml" 49 1633 1668 "AvaliaSintaxe.ml" 49 1633 1669
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 47 1553 1555 "AvaliaSintaxe.ml" 56 1805 1811
+)
+"AvaliaSintaxe.ml" 49 1633 1646 "AvaliaSintaxe.ml" 49 1633 1669
+call(
+  stack
+)
+type(
+  char
+)
+"AvaliaSintaxe.ml" 49 1633 1638 "AvaliaSintaxe.ml" 49 1633 1669
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 50 1671 1676 "AvaliaSintaxe.ml" 50 1671 1682
+type(
+  char ref
+)
+ident(
+  int_ref existe "AvaliaSintaxe.ml" 45 1522 1528 "AvaliaSintaxe.ml" 45 1522 1534
+)
+"AvaliaSintaxe.ml" 50 1671 1683 "AvaliaSintaxe.ml" 50 1671 1685
+type(
+  char ref -> char -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 50 1671 1686 "AvaliaSintaxe.ml" 50 1671 1694
+type(
+  char list -> int -> char
+)
+ident(
+  ext_ref List.nth
+)
+"AvaliaSintaxe.ml" 50 1671 1695 "AvaliaSintaxe.ml" 50 1671 1700
+type(
+  char list
+)
+ident(
+  int_ref lista "AvaliaSintaxe.ml" 40 1320 1344 "AvaliaSintaxe.ml" 40 1320 1349
+)
+"AvaliaSintaxe.ml" 50 1671 1701 "AvaliaSintaxe.ml" 50 1671 1702
+type(
+  int
+)
+ident(
+  int_ref j "AvaliaSintaxe.ml" 48 1596 1599 "AvaliaSintaxe.ml" 55 1797 1804
+)
+"AvaliaSintaxe.ml" 50 1671 1686 "AvaliaSintaxe.ml" 50 1671 1702
+call(
+  stack
+)
+type(
+  char
+)
+"AvaliaSintaxe.ml" 50 1671 1676 "AvaliaSintaxe.ml" 50 1671 1702
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 51 1704 1709 "AvaliaSintaxe.ml" 51 1704 1717
+type(
+  int ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 40 1320 1350 "AvaliaSintaxe.ml" 40 1320 1358
+)
+"AvaliaSintaxe.ml" 51 1704 1718 "AvaliaSintaxe.ml" 51 1704 1720
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 51 1704 1724 "AvaliaSintaxe.ml" 51 1704 1728
+type(
+  char ref
+)
+ident(
+  int_ref char "AvaliaSintaxe.ml" 44 1498 1504 "AvaliaSintaxe.ml" 44 1498 1508
+)
+"AvaliaSintaxe.ml" 51 1704 1729 "AvaliaSintaxe.ml" 51 1704 1730
+type(
+  char ref -> char ref -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 51 1704 1731 "AvaliaSintaxe.ml" 51 1704 1737
+type(
+  char ref
+)
+ident(
+  int_ref existe "AvaliaSintaxe.ml" 45 1522 1528 "AvaliaSintaxe.ml" 45 1522 1534
+)
+"AvaliaSintaxe.ml" 51 1704 1724 "AvaliaSintaxe.ml" 51 1704 1737
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 52 1738 1746 "AvaliaSintaxe.ml" 52 1738 1747
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 47 1553 1555 "AvaliaSintaxe.ml" 56 1805 1811
+)
+"AvaliaSintaxe.ml" 53 1748 1756 "AvaliaSintaxe.ml" 53 1748 1758
+type(
+  int
+)
+"AvaliaSintaxe.ml" 51 1704 1721 "AvaliaSintaxe.ml" 53 1748 1758
+type(
+  int
+)
+"AvaliaSintaxe.ml" 51 1704 1709 "AvaliaSintaxe.ml" 53 1748 1758
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 54 1760 1766 "AvaliaSintaxe.ml" 54 1760 1767
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 54 1760 1767 "AvaliaSintaxe.ml" 54 1760 1775
+type(
+  int ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 40 1320 1350 "AvaliaSintaxe.ml" 40 1320 1358
+)
+"AvaliaSintaxe.ml" 54 1760 1766 "AvaliaSintaxe.ml" 54 1760 1775
+type(
+  int
+)
+"AvaliaSintaxe.ml" 54 1760 1776 "AvaliaSintaxe.ml" 54 1760 1777
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 54 1760 1778 "AvaliaSintaxe.ml" 54 1760 1779
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 47 1553 1555 "AvaliaSintaxe.ml" 56 1805 1811
+)
+"AvaliaSintaxe.ml" 54 1760 1766 "AvaliaSintaxe.ml" 54 1760 1779
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 54 1760 1785 "AvaliaSintaxe.ml" 54 1760 1790
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"AvaliaSintaxe.ml" 54 1760 1791 "AvaliaSintaxe.ml" 54 1760 1795
+type(
+  exn
+)
+"AvaliaSintaxe.ml" 54 1760 1785 "AvaliaSintaxe.ml" 54 1760 1795
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 54 1760 1763 "AvaliaSintaxe.ml" 54 1760 1796
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 51 1704 1709 "AvaliaSintaxe.ml" 54 1760 1796
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 50 1671 1676 "AvaliaSintaxe.ml" 54 1760 1796
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 49 1633 1638 "AvaliaSintaxe.ml" 54 1760 1796
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 48 1596 1599 "AvaliaSintaxe.ml" 55 1797 1804
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 47 1553 1555 "AvaliaSintaxe.ml" 56 1805 1811
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 57 1813 1814 "AvaliaSintaxe.ml" 57 1813 1819
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 47 1553 1555 "AvaliaSintaxe.ml" 57 1813 1819
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 58 1820 1826 "AvaliaSintaxe.ml" 58 1820 1830
+type(
+  exn
+)
+"AvaliaSintaxe.ml" 58 1820 1834 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 46 1548 1549 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 45 1522 1524 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 44 1498 1500 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 43 1453 1455 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 42 1396 1398 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 41 1362 1364 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 40 1320 1338 "AvaliaSintaxe.ml" 58 1820 1838
+type(
+  string -> char list -> int ref -> bool
+)
+"AvaliaSintaxe.ml" 62 1885 1889 "AvaliaSintaxe.ml" 62 1885 1901
+type(
+  string -> bool ref -> unit
+)
+ident(
+  def verifica_int "AvaliaSintaxe.ml" 66 2046 2046 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 62 1885 1908 "AvaliaSintaxe.ml" 62 1885 1909
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 62 1885 1910 "AvaliaSintaxe.ml" 63 1922 2000
+)
+"AvaliaSintaxe.ml" 62 1885 1910 "AvaliaSintaxe.ml" 62 1885 1918
+type(
+  bool ref
+)
+ident(
+  def resposta "AvaliaSintaxe.ml" 63 1922 1924 "AvaliaSintaxe.ml" 63 1922 2000
+)
+"AvaliaSintaxe.ml" 63 1922 1924 "AvaliaSintaxe.ml" 63 1922 1932
+type(
+  bool ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 62 1885 1910 "AvaliaSintaxe.ml" 62 1885 1918
+)
+"AvaliaSintaxe.ml" 63 1922 1933 "AvaliaSintaxe.ml" 63 1922 1935
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 63 1922 1936 "AvaliaSintaxe.ml" 63 1922 1952
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"AvaliaSintaxe.ml" 63 1922 1954 "AvaliaSintaxe.ml" 63 1922 1964
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"AvaliaSintaxe.ml" 63 1922 1965 "AvaliaSintaxe.ml" 63 1922 1995
+type(
+  string
+)
+"AvaliaSintaxe.ml" 63 1922 1953 "AvaliaSintaxe.ml" 63 1922 1996
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"AvaliaSintaxe.ml" 63 1922 1997 "AvaliaSintaxe.ml" 63 1922 1998
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 62 1885 1908 "AvaliaSintaxe.ml" 62 1885 1909
+)
+"AvaliaSintaxe.ml" 63 1922 1999 "AvaliaSintaxe.ml" 63 1922 2000
+type(
+  int
+)
+"AvaliaSintaxe.ml" 63 1922 1936 "AvaliaSintaxe.ml" 63 1922 2000
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 63 1922 1924 "AvaliaSintaxe.ml" 63 1922 2000
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 62 1885 1904 "AvaliaSintaxe.ml" 63 1922 2000
+type(
+  string -> bool ref -> unit
+)
+"AvaliaSintaxe.ml" 66 2046 2050 "AvaliaSintaxe.ml" 66 2046 2062
+type(
+  string -> bool ref -> unit
+)
+ident(
+  def verifica_nat "AvaliaSintaxe.ml" 70 2200 2200 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 66 2046 2069 "AvaliaSintaxe.ml" 66 2046 2070
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 66 2046 2071 "AvaliaSintaxe.ml" 67 2083 2153
+)
+"AvaliaSintaxe.ml" 66 2046 2071 "AvaliaSintaxe.ml" 66 2046 2079
+type(
+  bool ref
+)
+ident(
+  def resposta "AvaliaSintaxe.ml" 67 2083 2085 "AvaliaSintaxe.ml" 67 2083 2153
+)
+"AvaliaSintaxe.ml" 67 2083 2085 "AvaliaSintaxe.ml" 67 2083 2093
+type(
+  bool ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 66 2046 2071 "AvaliaSintaxe.ml" 66 2046 2079
+)
+"AvaliaSintaxe.ml" 67 2083 2094 "AvaliaSintaxe.ml" 67 2083 2096
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 67 2083 2097 "AvaliaSintaxe.ml" 67 2083 2113
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"AvaliaSintaxe.ml" 67 2083 2115 "AvaliaSintaxe.ml" 67 2083 2125
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"AvaliaSintaxe.ml" 67 2083 2126 "AvaliaSintaxe.ml" 67 2083 2148
+type(
+  string
+)
+"AvaliaSintaxe.ml" 67 2083 2114 "AvaliaSintaxe.ml" 67 2083 2149
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"AvaliaSintaxe.ml" 67 2083 2150 "AvaliaSintaxe.ml" 67 2083 2151
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 66 2046 2069 "AvaliaSintaxe.ml" 66 2046 2070
+)
+"AvaliaSintaxe.ml" 67 2083 2152 "AvaliaSintaxe.ml" 67 2083 2153
+type(
+  int
+)
+"AvaliaSintaxe.ml" 67 2083 2097 "AvaliaSintaxe.ml" 67 2083 2153
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 67 2083 2085 "AvaliaSintaxe.ml" 67 2083 2153
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 66 2046 2065 "AvaliaSintaxe.ml" 67 2083 2153
+type(
+  string -> bool ref -> unit
+)
+"AvaliaSintaxe.ml" 70 2200 2204 "AvaliaSintaxe.ml" 70 2200 2216
+type(
+  string -> bool ref -> unit
+)
+ident(
+  def verifica_rac "AvaliaSintaxe.ml" 86 2697 2697 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 70 2200 2223 "AvaliaSintaxe.ml" 70 2200 2224
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 70 2200 2225 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 70 2200 2225 "AvaliaSintaxe.ml" 70 2200 2233
+type(
+  bool ref
+)
+ident(
+  def resposta "AvaliaSintaxe.ml" 71 2237 2238 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 71 2237 2242 "AvaliaSintaxe.ml" 71 2237 2252
+type(
+  Str.regexp
+)
+ident(
+  def regexp_div "AvaliaSintaxe.ml" 72 2275 2277 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 71 2237 2255 "AvaliaSintaxe.ml" 71 2237 2265
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"AvaliaSintaxe.ml" 71 2237 2266 "AvaliaSintaxe.ml" 71 2237 2271
+type(
+  string
+)
+"AvaliaSintaxe.ml" 71 2237 2255 "AvaliaSintaxe.ml" 71 2237 2271
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"AvaliaSintaxe.ml" 72 2275 2281 "AvaliaSintaxe.ml" 72 2275 2288
+type(
+  int
+)
+ident(
+  def ind_div "AvaliaSintaxe.ml" 73 2328 2329 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 72 2275 2291 "AvaliaSintaxe.ml" 72 2275 2309
+type(
+  Str.regexp -> string -> int -> int
+)
+ident(
+  ext_ref Str.search_forward
+)
+"AvaliaSintaxe.ml" 72 2275 2310 "AvaliaSintaxe.ml" 72 2275 2320
+type(
+  Str.regexp
+)
+ident(
+  int_ref regexp_div "AvaliaSintaxe.ml" 71 2237 2242 "AvaliaSintaxe.ml" 71 2237 2252
+)
+"AvaliaSintaxe.ml" 72 2275 2321 "AvaliaSintaxe.ml" 72 2275 2322
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 70 2200 2223 "AvaliaSintaxe.ml" 70 2200 2224
+)
+"AvaliaSintaxe.ml" 72 2275 2323 "AvaliaSintaxe.ml" 72 2275 2324
+type(
+  int
+)
+"AvaliaSintaxe.ml" 72 2275 2291 "AvaliaSintaxe.ml" 72 2275 2324
+call(
+  stack
+)
+type(
+  int
+)
+"AvaliaSintaxe.ml" 73 2328 2333 "AvaliaSintaxe.ml" 73 2328 2341
+type(
+  string
+)
+ident(
+  def int_part "AvaliaSintaxe.ml" 74 2375 2376 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 73 2328 2344 "AvaliaSintaxe.ml" 73 2328 2361
+type(
+  string -> int -> string
+)
+ident(
+  ext_ref Str.string_before
+)
+"AvaliaSintaxe.ml" 73 2328 2362 "AvaliaSintaxe.ml" 73 2328 2363
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 70 2200 2223 "AvaliaSintaxe.ml" 70 2200 2224
+)
+"AvaliaSintaxe.ml" 73 2328 2364 "AvaliaSintaxe.ml" 73 2328 2371
+type(
+  int
+)
+ident(
+  int_ref ind_div "AvaliaSintaxe.ml" 72 2275 2281 "AvaliaSintaxe.ml" 72 2275 2288
+)
+"AvaliaSintaxe.ml" 73 2328 2344 "AvaliaSintaxe.ml" 73 2328 2371
+call(
+  stack
+)
+type(
+  string
+)
+"AvaliaSintaxe.ml" 74 2375 2380 "AvaliaSintaxe.ml" 74 2375 2388
+type(
+  string
+)
+ident(
+  def nat_part "AvaliaSintaxe.ml" 75 2425 2426 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 74 2375 2391 "AvaliaSintaxe.ml" 74 2375 2407
+type(
+  string -> int -> string
+)
+ident(
+  ext_ref Str.string_after
+)
+"AvaliaSintaxe.ml" 74 2375 2408 "AvaliaSintaxe.ml" 74 2375 2409
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 70 2200 2223 "AvaliaSintaxe.ml" 70 2200 2224
+)
+"AvaliaSintaxe.ml" 74 2375 2411 "AvaliaSintaxe.ml" 74 2375 2418
+type(
+  int
+)
+ident(
+  int_ref ind_div "AvaliaSintaxe.ml" 72 2275 2281 "AvaliaSintaxe.ml" 72 2275 2288
+)
+"AvaliaSintaxe.ml" 74 2375 2418 "AvaliaSintaxe.ml" 74 2375 2419
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 74 2375 2419 "AvaliaSintaxe.ml" 74 2375 2420
+type(
+  int
+)
+"AvaliaSintaxe.ml" 74 2375 2410 "AvaliaSintaxe.ml" 74 2375 2421
+type(
+  int
+)
+"AvaliaSintaxe.ml" 74 2375 2391 "AvaliaSintaxe.ml" 74 2375 2421
+call(
+  stack
+)
+type(
+  string
+)
+"AvaliaSintaxe.ml" 75 2425 2430 "AvaliaSintaxe.ml" 75 2425 2439
+type(
+  bool ref
+)
+ident(
+  def resposta1 "AvaliaSintaxe.ml" 76 2454 2455 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 75 2425 2442 "AvaliaSintaxe.ml" 75 2425 2445
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 75 2425 2446 "AvaliaSintaxe.ml" 75 2425 2450
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 75 2425 2442 "AvaliaSintaxe.ml" 75 2425 2450
+type(
+  bool ref
+)
+"AvaliaSintaxe.ml" 76 2454 2459 "AvaliaSintaxe.ml" 76 2454 2468
+type(
+  bool ref
+)
+ident(
+  def resposta2 "AvaliaSintaxe.ml" 77 2483 2484 "AvaliaSintaxe.ml" 83 2615 2623
+)
+"AvaliaSintaxe.ml" 76 2454 2471 "AvaliaSintaxe.ml" 76 2454 2474
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 76 2454 2475 "AvaliaSintaxe.ml" 76 2454 2479
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 76 2454 2471 "AvaliaSintaxe.ml" 76 2454 2479
+type(
+  bool ref
+)
+"AvaliaSintaxe.ml" 77 2483 2484 "AvaliaSintaxe.ml" 77 2483 2496
+type(
+  string -> bool ref -> unit
+)
+ident(
+  int_ref verifica_int "AvaliaSintaxe.ml" 62 1885 1889 "AvaliaSintaxe.ml" 62 1885 1901
+)
+"AvaliaSintaxe.ml" 77 2483 2497 "AvaliaSintaxe.ml" 77 2483 2505
+type(
+  string
+)
+ident(
+  int_ref int_part "AvaliaSintaxe.ml" 73 2328 2333 "AvaliaSintaxe.ml" 73 2328 2341
+)
+"AvaliaSintaxe.ml" 77 2483 2506 "AvaliaSintaxe.ml" 77 2483 2515
+type(
+  bool ref
+)
+ident(
+  int_ref resposta1 "AvaliaSintaxe.ml" 75 2425 2430 "AvaliaSintaxe.ml" 75 2425 2439
+)
+"AvaliaSintaxe.ml" 77 2483 2484 "AvaliaSintaxe.ml" 77 2483 2515
+call(
+  stack
+)
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 78 2517 2518 "AvaliaSintaxe.ml" 78 2517 2530
+type(
+  string -> bool ref -> unit
+)
+ident(
+  int_ref verifica_nat "AvaliaSintaxe.ml" 66 2046 2050 "AvaliaSintaxe.ml" 66 2046 2062
+)
+"AvaliaSintaxe.ml" 78 2517 2531 "AvaliaSintaxe.ml" 78 2517 2539
+type(
+  string
+)
+ident(
+  int_ref nat_part "AvaliaSintaxe.ml" 74 2375 2380 "AvaliaSintaxe.ml" 74 2375 2388
+)
+"AvaliaSintaxe.ml" 78 2517 2540 "AvaliaSintaxe.ml" 78 2517 2549
+type(
+  bool ref
+)
+ident(
+  int_ref resposta2 "AvaliaSintaxe.ml" 76 2454 2459 "AvaliaSintaxe.ml" 76 2454 2468
+)
+"AvaliaSintaxe.ml" 78 2517 2518 "AvaliaSintaxe.ml" 78 2517 2549
+call(
+  stack
+)
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 79 2551 2552 "AvaliaSintaxe.ml" 79 2551 2560
+type(
+  bool ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 70 2200 2225 "AvaliaSintaxe.ml" 70 2200 2233
+)
+"AvaliaSintaxe.ml" 79 2551 2561 "AvaliaSintaxe.ml" 79 2551 2563
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 80 2564 2569 "AvaliaSintaxe.ml" 80 2564 2570
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 80 2564 2570 "AvaliaSintaxe.ml" 80 2564 2579
+type(
+  bool ref
+)
+ident(
+  int_ref resposta1 "AvaliaSintaxe.ml" 75 2425 2430 "AvaliaSintaxe.ml" 75 2425 2439
+)
+"AvaliaSintaxe.ml" 80 2564 2569 "AvaliaSintaxe.ml" 80 2564 2579
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 80 2564 2580 "AvaliaSintaxe.ml" 80 2564 2582
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 80 2564 2583 "AvaliaSintaxe.ml" 80 2564 2584
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 80 2564 2584 "AvaliaSintaxe.ml" 80 2564 2593
+type(
+  bool ref
+)
+ident(
+  int_ref resposta2 "AvaliaSintaxe.ml" 76 2454 2459 "AvaliaSintaxe.ml" 76 2454 2468
+)
+"AvaliaSintaxe.ml" 80 2564 2583 "AvaliaSintaxe.ml" 80 2564 2593
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 80 2564 2569 "AvaliaSintaxe.ml" 80 2564 2593
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 81 2599 2603 "AvaliaSintaxe.ml" 81 2599 2607
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 83 2615 2618 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 80 2564 2566 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 79 2551 2552 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 78 2517 2518 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 77 2483 2484 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 76 2454 2455 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 75 2425 2426 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 74 2375 2376 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 73 2328 2329 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 72 2275 2277 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 71 2237 2238 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 70 2200 2219 "AvaliaSintaxe.ml" 83 2615 2623
+type(
+  string -> bool ref -> unit
+)
+"AvaliaSintaxe.ml" 86 2697 2701 "AvaliaSintaxe.ml" 86 2697 2721
+type(
+  string -> bool
+)
+ident(
+  def verifica_comparativo "AvaliaSintaxe.ml" 92 2962 2962 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 86 2697 2728 "AvaliaSintaxe.ml" 86 2697 2733
+type(
+  string
+)
+ident(
+  def input "AvaliaSintaxe.ml" 87 2737 2739 "AvaliaSintaxe.ml" 89 2838 2873
+)
+"AvaliaSintaxe.ml" 87 2737 2743 "AvaliaSintaxe.ml" 87 2737 2746
+type(
+  Str.regexp
+)
+ident(
+  def exp "AvaliaSintaxe.ml" 88 2788 2790 "AvaliaSintaxe.ml" 89 2838 2873
+)
+"AvaliaSintaxe.ml" 87 2737 2749 "AvaliaSintaxe.ml" 87 2737 2759
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"AvaliaSintaxe.ml" 87 2737 2760 "AvaliaSintaxe.ml" 87 2737 2784
+type(
+  string
+)
+"AvaliaSintaxe.ml" 87 2737 2749 "AvaliaSintaxe.ml" 87 2737 2784
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"AvaliaSintaxe.ml" 88 2788 2794 "AvaliaSintaxe.ml" 88 2788 2803
+type(
+  bool
+)
+ident(
+  def resultado "AvaliaSintaxe.ml" 89 2838 2840 "AvaliaSintaxe.ml" 89 2838 2873
+)
+"AvaliaSintaxe.ml" 88 2788 2806 "AvaliaSintaxe.ml" 88 2788 2822
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"AvaliaSintaxe.ml" 88 2788 2823 "AvaliaSintaxe.ml" 88 2788 2826
+type(
+  Str.regexp
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 87 2737 2743 "AvaliaSintaxe.ml" 87 2737 2746
+)
+"AvaliaSintaxe.ml" 88 2788 2827 "AvaliaSintaxe.ml" 88 2788 2832
+type(
+  string
+)
+ident(
+  int_ref input "AvaliaSintaxe.ml" 86 2697 2728 "AvaliaSintaxe.ml" 86 2697 2733
+)
+"AvaliaSintaxe.ml" 88 2788 2833 "AvaliaSintaxe.ml" 88 2788 2834
+type(
+  int
+)
+"AvaliaSintaxe.ml" 88 2788 2806 "AvaliaSintaxe.ml" 88 2788 2834
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 89 2838 2843 "AvaliaSintaxe.ml" 89 2838 2852
+type(
+  bool
+)
+ident(
+  int_ref resultado "AvaliaSintaxe.ml" 88 2788 2794 "AvaliaSintaxe.ml" 88 2788 2803
+)
+"AvaliaSintaxe.ml" 89 2838 2858 "AvaliaSintaxe.ml" 89 2838 2862
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 89 2838 2868 "AvaliaSintaxe.ml" 89 2838 2873
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 89 2838 2840 "AvaliaSintaxe.ml" 89 2838 2873
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 88 2788 2790 "AvaliaSintaxe.ml" 89 2838 2873
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 87 2737 2739 "AvaliaSintaxe.ml" 89 2838 2873
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 86 2697 2724 "AvaliaSintaxe.ml" 89 2838 2873
+type(
+  string -> bool
+)
+"AvaliaSintaxe.ml" 92 2962 2966 "AvaliaSintaxe.ml" 92 2962 2985
+type(
+  string -> bool ref -> unit
+)
+ident(
+  def verifica_parenteses "AvaliaSintaxe.ml" 136 4366 4366 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 92 2962 2992 "AvaliaSintaxe.ml" 92 2962 2993
+type(
+  string
+)
+ident(
+  def s "AvaliaSintaxe.ml" 92 2962 2994 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 92 2962 2994 "AvaliaSintaxe.ml" 92 2962 3002
+type(
+  bool ref
+)
+ident(
+  def resposta "AvaliaSintaxe.ml" 93 3005 3006 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 93 3005 3010 "AvaliaSintaxe.ml" 93 3005 3024
+type(
+  int
+)
+ident(
+  def tamanho_string "AvaliaSintaxe.ml" 94 3046 3047 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 93 3005 3027 "AvaliaSintaxe.ml" 93 3005 3040
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"AvaliaSintaxe.ml" 93 3005 3041 "AvaliaSintaxe.ml" 93 3005 3042
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 92 2962 2992 "AvaliaSintaxe.ml" 92 2962 2993
+)
+"AvaliaSintaxe.ml" 93 3005 3027 "AvaliaSintaxe.ml" 93 3005 3042
+type(
+  int
+)
+"AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+type(
+  int ref
+)
+ident(
+  def num_parenteses1 "AvaliaSintaxe.ml" 95 3078 3079 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 94 3046 3069 "AvaliaSintaxe.ml" 94 3046 3072
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 94 3046 3073 "AvaliaSintaxe.ml" 94 3046 3074
+type(
+  int
+)
+"AvaliaSintaxe.ml" 94 3046 3069 "AvaliaSintaxe.ml" 94 3046 3074
+type(
+  int ref
+)
+"AvaliaSintaxe.ml" 95 3078 3083 "AvaliaSintaxe.ml" 95 3078 3098
+type(
+  int ref
+)
+ident(
+  def num_parenteses2 "AvaliaSintaxe.ml" 96 3110 3111 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 95 3078 3101 "AvaliaSintaxe.ml" 95 3078 3104
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 95 3078 3105 "AvaliaSintaxe.ml" 95 3078 3106
+type(
+  int
+)
+"AvaliaSintaxe.ml" 95 3078 3101 "AvaliaSintaxe.ml" 95 3078 3106
+type(
+  int ref
+)
+"AvaliaSintaxe.ml" 96 3110 3115 "AvaliaSintaxe.ml" 96 3110 3130
+type(
+  int ref
+)
+ident(
+  def num_parenteses3 "AvaliaSintaxe.ml" 97 3142 3143 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 96 3110 3133 "AvaliaSintaxe.ml" 96 3110 3136
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 96 3110 3137 "AvaliaSintaxe.ml" 96 3110 3138
+type(
+  int
+)
+"AvaliaSintaxe.ml" 96 3110 3133 "AvaliaSintaxe.ml" 96 3110 3138
+type(
+  int ref
+)
+"AvaliaSintaxe.ml" 97 3142 3147 "AvaliaSintaxe.ml" 97 3142 3152
+type(
+  int ref
+)
+ident(
+  def final "AvaliaSintaxe.ml" 98 3177 3178 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 97 3142 3155 "AvaliaSintaxe.ml" 97 3142 3158
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 97 3142 3159 "AvaliaSintaxe.ml" 97 3142 3173
+type(
+  int
+)
+ident(
+  int_ref tamanho_string "AvaliaSintaxe.ml" 93 3005 3010 "AvaliaSintaxe.ml" 93 3005 3024
+)
+"AvaliaSintaxe.ml" 97 3142 3155 "AvaliaSintaxe.ml" 97 3142 3173
+type(
+  int ref
+)
+"AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+type(
+  int ref
+)
+ident(
+  def acha_par "AvaliaSintaxe.ml" 99 3202 3203 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 98 3177 3193 "AvaliaSintaxe.ml" 98 3177 3196
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 98 3177 3197 "AvaliaSintaxe.ml" 98 3177 3198
+type(
+  int
+)
+"AvaliaSintaxe.ml" 98 3177 3193 "AvaliaSintaxe.ml" 98 3177 3198
+type(
+  int ref
+)
+"AvaliaSintaxe.ml" 99 3202 3207 "AvaliaSintaxe.ml" 99 3202 3215
+type(
+  bool ref
+)
+ident(
+  def rodada_1 "AvaliaSintaxe.ml" 100 3230 3231 "AvaliaSintaxe.ml" 128 4038 4057
+)
+"AvaliaSintaxe.ml" 99 3202 3218 "AvaliaSintaxe.ml" 99 3202 3221
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"AvaliaSintaxe.ml" 99 3202 3222 "AvaliaSintaxe.ml" 99 3202 3226
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 99 3202 3218 "AvaliaSintaxe.ml" 99 3202 3226
+type(
+  bool ref
+)
+"AvaliaSintaxe.ml" 100 3230 3239 "AvaliaSintaxe.ml" 100 3230 3240
+type(
+  int
+)
+"AvaliaSintaxe.ml" 100 3230 3245 "AvaliaSintaxe.ml" 100 3230 3259
+type(
+  int
+)
+ident(
+  int_ref tamanho_string "AvaliaSintaxe.ml" 93 3005 3010 "AvaliaSintaxe.ml" 93 3005 3024
+)
+"AvaliaSintaxe.ml" 100 3230 3259 "AvaliaSintaxe.ml" 100 3230 3260
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 100 3230 3260 "AvaliaSintaxe.ml" 100 3230 3261
+type(
+  int
+)
+"AvaliaSintaxe.ml" 100 3230 3244 "AvaliaSintaxe.ml" 100 3230 3262
+type(
+  int
+)
+"AvaliaSintaxe.ml" 101 3266 3272 "AvaliaSintaxe.ml" 101 3266 3282
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 101 3266 3283 "AvaliaSintaxe.ml" 101 3266 3284
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 92 2962 2992 "AvaliaSintaxe.ml" 92 2962 2993
+)
+"AvaliaSintaxe.ml" 101 3266 3285 "AvaliaSintaxe.ml" 101 3266 3286
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 100 3230 3231 "AvaliaSintaxe.ml" 120 3800 3805
+)
+"AvaliaSintaxe.ml" 101 3266 3271 "AvaliaSintaxe.ml" 101 3266 3287
+type(
+  char
+)
+"AvaliaSintaxe.ml" 101 3266 3288 "AvaliaSintaxe.ml" 101 3266 3290
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 101 3266 3291 "AvaliaSintaxe.ml" 101 3266 3294
+type(
+  char
+)
+"AvaliaSintaxe.ml" 101 3266 3271 "AvaliaSintaxe.ml" 101 3266 3294
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 103 3309 3313 "AvaliaSintaxe.ml" 103 3309 3328
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses1 "AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+)
+"AvaliaSintaxe.ml" 103 3309 3329 "AvaliaSintaxe.ml" 103 3309 3331
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 103 3309 3332 "AvaliaSintaxe.ml" 103 3309 3333
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 103 3309 3333 "AvaliaSintaxe.ml" 103 3309 3348
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses1 "AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+)
+"AvaliaSintaxe.ml" 103 3309 3332 "AvaliaSintaxe.ml" 103 3309 3348
+type(
+  int
+)
+"AvaliaSintaxe.ml" 103 3309 3349 "AvaliaSintaxe.ml" 103 3309 3350
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 103 3309 3351 "AvaliaSintaxe.ml" 103 3309 3352
+type(
+  int
+)
+"AvaliaSintaxe.ml" 103 3309 3332 "AvaliaSintaxe.ml" 103 3309 3352
+type(
+  int
+)
+"AvaliaSintaxe.ml" 103 3309 3313 "AvaliaSintaxe.ml" 103 3309 3352
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 104 3354 3357 "AvaliaSintaxe.ml" 104 3354 3365
+type(
+  int ref
+)
+ident(
+  int_ref acha_par "AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+)
+"AvaliaSintaxe.ml" 104 3354 3366 "AvaliaSintaxe.ml" 104 3354 3368
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 104 3354 3369 "AvaliaSintaxe.ml" 104 3354 3370
+type(
+  int
+)
+"AvaliaSintaxe.ml" 104 3354 3357 "AvaliaSintaxe.ml" 104 3354 3370
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 105 3372 3384 "AvaliaSintaxe.ml" 105 3372 3385
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 100 3230 3231 "AvaliaSintaxe.ml" 120 3800 3805
+)
+"AvaliaSintaxe.ml" 105 3372 3385 "AvaliaSintaxe.ml" 105 3372 3386
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 105 3372 3386 "AvaliaSintaxe.ml" 105 3372 3387
+type(
+  int
+)
+"AvaliaSintaxe.ml" 105 3372 3383 "AvaliaSintaxe.ml" 105 3372 3388
+type(
+  int
+)
+"AvaliaSintaxe.ml" 105 3372 3393 "AvaliaSintaxe.ml" 105 3372 3394
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 105 3372 3394 "AvaliaSintaxe.ml" 105 3372 3399
+type(
+  int ref
+)
+ident(
+  int_ref final "AvaliaSintaxe.ml" 97 3142 3147 "AvaliaSintaxe.ml" 97 3142 3152
+)
+"AvaliaSintaxe.ml" 105 3372 3393 "AvaliaSintaxe.ml" 105 3372 3399
+type(
+  int
+)
+"AvaliaSintaxe.ml" 105 3372 3399 "AvaliaSintaxe.ml" 105 3372 3400
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 105 3372 3400 "AvaliaSintaxe.ml" 105 3372 3401
+type(
+  int
+)
+"AvaliaSintaxe.ml" 105 3372 3392 "AvaliaSintaxe.ml" 105 3372 3402
+type(
+  int
+)
+"AvaliaSintaxe.ml" 106 3406 3414 "AvaliaSintaxe.ml" 106 3406 3424
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 106 3406 3425 "AvaliaSintaxe.ml" 106 3406 3426
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 92 2962 2992 "AvaliaSintaxe.ml" 92 2962 2993
+)
+"AvaliaSintaxe.ml" 106 3406 3427 "AvaliaSintaxe.ml" 106 3406 3428
+type(
+  int
+)
+ident(
+  int_ref j "AvaliaSintaxe.ml" 105 3372 3375 "AvaliaSintaxe.ml" 115 3683 3690
+)
+"AvaliaSintaxe.ml" 106 3406 3413 "AvaliaSintaxe.ml" 106 3406 3429
+type(
+  char
+)
+"AvaliaSintaxe.ml" 106 3406 3430 "AvaliaSintaxe.ml" 106 3406 3432
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 106 3406 3433 "AvaliaSintaxe.ml" 106 3406 3436
+type(
+  char
+)
+"AvaliaSintaxe.ml" 106 3406 3413 "AvaliaSintaxe.ml" 106 3406 3436
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 107 3442 3449 "AvaliaSintaxe.ml" 107 3442 3457
+type(
+  int ref
+)
+ident(
+  int_ref acha_par "AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+)
+"AvaliaSintaxe.ml" 107 3442 3458 "AvaliaSintaxe.ml" 107 3442 3460
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 107 3442 3461 "AvaliaSintaxe.ml" 107 3442 3462
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 107 3442 3462 "AvaliaSintaxe.ml" 107 3442 3470
+type(
+  int ref
+)
+ident(
+  int_ref acha_par "AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+)
+"AvaliaSintaxe.ml" 107 3442 3461 "AvaliaSintaxe.ml" 107 3442 3470
+type(
+  int
+)
+"AvaliaSintaxe.ml" 107 3442 3471 "AvaliaSintaxe.ml" 107 3442 3472
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 107 3442 3473 "AvaliaSintaxe.ml" 107 3442 3474
+type(
+  int
+)
+"AvaliaSintaxe.ml" 107 3442 3461 "AvaliaSintaxe.ml" 107 3442 3474
+type(
+  int
+)
+"AvaliaSintaxe.ml" 107 3442 3449 "AvaliaSintaxe.ml" 107 3442 3474
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 106 3406 3410 "AvaliaSintaxe.ml" 107 3442 3474
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 108 3481 3489 "AvaliaSintaxe.ml" 108 3481 3499
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 108 3481 3500 "AvaliaSintaxe.ml" 108 3481 3501
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 92 2962 2992 "AvaliaSintaxe.ml" 92 2962 2993
+)
+"AvaliaSintaxe.ml" 108 3481 3502 "AvaliaSintaxe.ml" 108 3481 3503
+type(
+  int
+)
+ident(
+  int_ref j "AvaliaSintaxe.ml" 105 3372 3375 "AvaliaSintaxe.ml" 115 3683 3690
+)
+"AvaliaSintaxe.ml" 108 3481 3488 "AvaliaSintaxe.ml" 108 3481 3504
+type(
+  char
+)
+"AvaliaSintaxe.ml" 108 3481 3505 "AvaliaSintaxe.ml" 108 3481 3507
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 108 3481 3508 "AvaliaSintaxe.ml" 108 3481 3511
+type(
+  char
+)
+"AvaliaSintaxe.ml" 108 3481 3488 "AvaliaSintaxe.ml" 108 3481 3511
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 109 3517 3524 "AvaliaSintaxe.ml" 109 3517 3532
+type(
+  int ref
+)
+ident(
+  int_ref acha_par "AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+)
+"AvaliaSintaxe.ml" 109 3517 3533 "AvaliaSintaxe.ml" 109 3517 3535
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 109 3517 3536 "AvaliaSintaxe.ml" 109 3517 3537
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 109 3517 3537 "AvaliaSintaxe.ml" 109 3517 3545
+type(
+  int ref
+)
+ident(
+  int_ref acha_par "AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+)
+"AvaliaSintaxe.ml" 109 3517 3536 "AvaliaSintaxe.ml" 109 3517 3545
+type(
+  int
+)
+"AvaliaSintaxe.ml" 109 3517 3546 "AvaliaSintaxe.ml" 109 3517 3547
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"AvaliaSintaxe.ml" 109 3517 3548 "AvaliaSintaxe.ml" 109 3517 3549
+type(
+  int
+)
+"AvaliaSintaxe.ml" 109 3517 3536 "AvaliaSintaxe.ml" 109 3517 3549
+type(
+  int
+)
+"AvaliaSintaxe.ml" 109 3517 3524 "AvaliaSintaxe.ml" 109 3517 3549
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 108 3481 3485 "AvaliaSintaxe.ml" 109 3517 3549
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 110 3551 3558 "AvaliaSintaxe.ml" 110 3551 3559
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 110 3551 3559 "AvaliaSintaxe.ml" 110 3551 3567
+type(
+  int ref
+)
+ident(
+  int_ref acha_par "AvaliaSintaxe.ml" 98 3177 3182 "AvaliaSintaxe.ml" 98 3177 3190
+)
+"AvaliaSintaxe.ml" 110 3551 3558 "AvaliaSintaxe.ml" 110 3551 3567
+type(
+  int
+)
+"AvaliaSintaxe.ml" 110 3551 3568 "AvaliaSintaxe.ml" 110 3551 3570
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 110 3551 3571 "AvaliaSintaxe.ml" 110 3551 3572
+type(
+  int
+)
+"AvaliaSintaxe.ml" 110 3551 3558 "AvaliaSintaxe.ml" 110 3551 3572
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 110 3551 3573 "AvaliaSintaxe.ml" 110 3551 3575
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 110 3551 3576 "AvaliaSintaxe.ml" 110 3551 3577
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 110 3551 3577 "AvaliaSintaxe.ml" 110 3551 3585
+type(
+  bool ref
+)
+ident(
+  int_ref rodada_1 "AvaliaSintaxe.ml" 99 3202 3207 "AvaliaSintaxe.ml" 99 3202 3215
+)
+"AvaliaSintaxe.ml" 110 3551 3576 "AvaliaSintaxe.ml" 110 3551 3585
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 110 3551 3558 "AvaliaSintaxe.ml" 110 3551 3585
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 112 3603 3608 "AvaliaSintaxe.ml" 112 3603 3623
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses2 "AvaliaSintaxe.ml" 95 3078 3083 "AvaliaSintaxe.ml" 95 3078 3098
+)
+"AvaliaSintaxe.ml" 112 3603 3624 "AvaliaSintaxe.ml" 112 3603 3626
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 112 3603 3627 "AvaliaSintaxe.ml" 112 3603 3628
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 112 3603 3628 "AvaliaSintaxe.ml" 112 3603 3643
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses2 "AvaliaSintaxe.ml" 95 3078 3083 "AvaliaSintaxe.ml" 95 3078 3098
+)
+"AvaliaSintaxe.ml" 112 3603 3627 "AvaliaSintaxe.ml" 112 3603 3643
+type(
+  int
+)
+"AvaliaSintaxe.ml" 112 3603 3644 "AvaliaSintaxe.ml" 112 3603 3645
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 112 3603 3646 "AvaliaSintaxe.ml" 112 3603 3647
+type(
+  int
+)
+"AvaliaSintaxe.ml" 112 3603 3627 "AvaliaSintaxe.ml" 112 3603 3647
+type(
+  int
+)
+"AvaliaSintaxe.ml" 112 3603 3608 "AvaliaSintaxe.ml" 112 3603 3647
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 113 3649 3654 "AvaliaSintaxe.ml" 113 3649 3662
+type(
+  bool ref
+)
+ident(
+  int_ref rodada_1 "AvaliaSintaxe.ml" 99 3202 3207 "AvaliaSintaxe.ml" 99 3202 3215
+)
+"AvaliaSintaxe.ml" 113 3649 3663 "AvaliaSintaxe.ml" 113 3649 3665
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 113 3649 3666 "AvaliaSintaxe.ml" 113 3649 3671
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 113 3649 3654 "AvaliaSintaxe.ml" 113 3649 3672
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 111 3592 3597 "AvaliaSintaxe.ml" 114 3673 3681
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 110 3551 3555 "AvaliaSintaxe.ml" 114 3673 3682
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 108 3481 3485 "AvaliaSintaxe.ml" 114 3673 3682
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 106 3406 3410 "AvaliaSintaxe.ml" 114 3673 3682
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 105 3372 3375 "AvaliaSintaxe.ml" 115 3683 3690
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 116 3692 3695 "AvaliaSintaxe.ml" 116 3692 3703
+type(
+  bool ref
+)
+ident(
+  int_ref rodada_1 "AvaliaSintaxe.ml" 99 3202 3207 "AvaliaSintaxe.ml" 99 3202 3215
+)
+"AvaliaSintaxe.ml" 116 3692 3704 "AvaliaSintaxe.ml" 116 3692 3706
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 116 3692 3707 "AvaliaSintaxe.ml" 116 3692 3711
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 116 3692 3695 "AvaliaSintaxe.ml" 116 3692 3712
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 105 3372 3375 "AvaliaSintaxe.ml" 116 3692 3712
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 104 3354 3357 "AvaliaSintaxe.ml" 116 3692 3712
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 102 3300 3303 "AvaliaSintaxe.ml" 117 3713 3719
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 101 3266 3268 "AvaliaSintaxe.ml" 117 3713 3719
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 118 3721 3727 "AvaliaSintaxe.ml" 118 3721 3737
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 118 3721 3738 "AvaliaSintaxe.ml" 118 3721 3739
+type(
+  string
+)
+ident(
+  int_ref s "AvaliaSintaxe.ml" 92 2962 2992 "AvaliaSintaxe.ml" 92 2962 2993
+)
+"AvaliaSintaxe.ml" 118 3721 3740 "AvaliaSintaxe.ml" 118 3721 3741
+type(
+  int
+)
+ident(
+  int_ref i "AvaliaSintaxe.ml" 100 3230 3231 "AvaliaSintaxe.ml" 120 3800 3805
+)
+"AvaliaSintaxe.ml" 118 3721 3726 "AvaliaSintaxe.ml" 118 3721 3742
+type(
+  char
+)
+"AvaliaSintaxe.ml" 118 3721 3743 "AvaliaSintaxe.ml" 118 3721 3745
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 118 3721 3746 "AvaliaSintaxe.ml" 118 3721 3749
+type(
+  char
+)
+"AvaliaSintaxe.ml" 118 3721 3726 "AvaliaSintaxe.ml" 118 3721 3749
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 119 3755 3758 "AvaliaSintaxe.ml" 119 3755 3773
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses3 "AvaliaSintaxe.ml" 96 3110 3115 "AvaliaSintaxe.ml" 96 3110 3130
+)
+"AvaliaSintaxe.ml" 119 3755 3774 "AvaliaSintaxe.ml" 119 3755 3776
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 119 3755 3777 "AvaliaSintaxe.ml" 119 3755 3778
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 119 3755 3778 "AvaliaSintaxe.ml" 119 3755 3793
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses3 "AvaliaSintaxe.ml" 96 3110 3115 "AvaliaSintaxe.ml" 96 3110 3130
+)
+"AvaliaSintaxe.ml" 119 3755 3777 "AvaliaSintaxe.ml" 119 3755 3793
+type(
+  int
+)
+"AvaliaSintaxe.ml" 119 3755 3794 "AvaliaSintaxe.ml" 119 3755 3795
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 119 3755 3796 "AvaliaSintaxe.ml" 119 3755 3797
+type(
+  int
+)
+"AvaliaSintaxe.ml" 119 3755 3777 "AvaliaSintaxe.ml" 119 3755 3797
+type(
+  int
+)
+"AvaliaSintaxe.ml" 119 3755 3758 "AvaliaSintaxe.ml" 119 3755 3797
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 118 3721 3723 "AvaliaSintaxe.ml" 119 3755 3798
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 101 3266 3268 "AvaliaSintaxe.ml" 119 3755 3798
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 100 3230 3231 "AvaliaSintaxe.ml" 120 3800 3805
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 121 3807 3811 "AvaliaSintaxe.ml" 121 3807 3812
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 121 3807 3812 "AvaliaSintaxe.ml" 121 3807 3827
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses1 "AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+)
+"AvaliaSintaxe.ml" 121 3807 3811 "AvaliaSintaxe.ml" 121 3807 3827
+type(
+  int
+)
+"AvaliaSintaxe.ml" 121 3807 3828 "AvaliaSintaxe.ml" 121 3807 3830
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"AvaliaSintaxe.ml" 121 3807 3831 "AvaliaSintaxe.ml" 121 3807 3832
+type(
+  int
+)
+"AvaliaSintaxe.ml" 121 3807 3811 "AvaliaSintaxe.ml" 121 3807 3832
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 121 3807 3833 "AvaliaSintaxe.ml" 121 3807 3835
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"AvaliaSintaxe.ml" 121 3807 3836 "AvaliaSintaxe.ml" 121 3807 3837
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 121 3807 3837 "AvaliaSintaxe.ml" 121 3807 3852
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses3 "AvaliaSintaxe.ml" 96 3110 3115 "AvaliaSintaxe.ml" 96 3110 3130
+)
+"AvaliaSintaxe.ml" 121 3807 3836 "AvaliaSintaxe.ml" 121 3807 3852
+type(
+  int
+)
+"AvaliaSintaxe.ml" 121 3807 3853 "AvaliaSintaxe.ml" 121 3807 3855
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"AvaliaSintaxe.ml" 121 3807 3856 "AvaliaSintaxe.ml" 121 3807 3857
+type(
+  int
+)
+"AvaliaSintaxe.ml" 121 3807 3836 "AvaliaSintaxe.ml" 121 3807 3857
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 121 3807 3811 "AvaliaSintaxe.ml" 121 3807 3857
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 122 3865 3871 "AvaliaSintaxe.ml" 122 3865 3872
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 122 3865 3872 "AvaliaSintaxe.ml" 122 3865 3887
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses1 "AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+)
+"AvaliaSintaxe.ml" 122 3865 3871 "AvaliaSintaxe.ml" 122 3865 3887
+type(
+  int
+)
+"AvaliaSintaxe.ml" 122 3865 3888 "AvaliaSintaxe.ml" 122 3865 3890
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 122 3865 3891 "AvaliaSintaxe.ml" 122 3865 3892
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 122 3865 3892 "AvaliaSintaxe.ml" 122 3865 3907
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses2 "AvaliaSintaxe.ml" 95 3078 3083 "AvaliaSintaxe.ml" 95 3078 3098
+)
+"AvaliaSintaxe.ml" 122 3865 3891 "AvaliaSintaxe.ml" 122 3865 3907
+type(
+  int
+)
+"AvaliaSintaxe.ml" 122 3865 3871 "AvaliaSintaxe.ml" 122 3865 3907
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 123 3908 3910 "AvaliaSintaxe.ml" 123 3908 3912
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 123 3908 3914 "AvaliaSintaxe.ml" 123 3908 3915
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 123 3908 3915 "AvaliaSintaxe.ml" 123 3908 3930
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses3 "AvaliaSintaxe.ml" 96 3110 3115 "AvaliaSintaxe.ml" 96 3110 3130
+)
+"AvaliaSintaxe.ml" 123 3908 3914 "AvaliaSintaxe.ml" 123 3908 3930
+type(
+  int
+)
+"AvaliaSintaxe.ml" 123 3908 3931 "AvaliaSintaxe.ml" 123 3908 3932
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 123 3908 3933 "AvaliaSintaxe.ml" 123 3908 3934
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 123 3908 3934 "AvaliaSintaxe.ml" 123 3908 3949
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses1 "AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+)
+"AvaliaSintaxe.ml" 123 3908 3933 "AvaliaSintaxe.ml" 123 3908 3949
+type(
+  int
+)
+"AvaliaSintaxe.ml" 123 3908 3913 "AvaliaSintaxe.ml" 123 3908 3950
+type(
+  int
+)
+"AvaliaSintaxe.ml" 123 3908 3951 "AvaliaSintaxe.ml" 123 3908 3953
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"AvaliaSintaxe.ml" 123 3908 3955 "AvaliaSintaxe.ml" 123 3908 3956
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"AvaliaSintaxe.ml" 123 3908 3956 "AvaliaSintaxe.ml" 123 3908 3971
+type(
+  int ref
+)
+ident(
+  int_ref num_parenteses1 "AvaliaSintaxe.ml" 94 3046 3051 "AvaliaSintaxe.ml" 94 3046 3066
+)
+"AvaliaSintaxe.ml" 123 3908 3955 "AvaliaSintaxe.ml" 123 3908 3971
+type(
+  int
+)
+"AvaliaSintaxe.ml" 123 3908 3971 "AvaliaSintaxe.ml" 123 3908 3972
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"AvaliaSintaxe.ml" 123 3908 3972 "AvaliaSintaxe.ml" 123 3908 3973
+type(
+  int
+)
+"AvaliaSintaxe.ml" 123 3908 3954 "AvaliaSintaxe.ml" 123 3908 3974
+type(
+  int
+)
+"AvaliaSintaxe.ml" 123 3908 3913 "AvaliaSintaxe.ml" 123 3908 3974
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 122 3865 3871 "AvaliaSintaxe.ml" 123 3908 3974
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 124 3980 3984 "AvaliaSintaxe.ml" 124 3980 3992
+type(
+  bool ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 92 2962 2994 "AvaliaSintaxe.ml" 92 2962 3002
+)
+"AvaliaSintaxe.ml" 124 3980 3993 "AvaliaSintaxe.ml" 124 3980 3995
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 124 3980 3996 "AvaliaSintaxe.ml" 124 3980 4000
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 124 3980 3984 "AvaliaSintaxe.ml" 124 3980 4000
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 126 4009 4013 "AvaliaSintaxe.ml" 126 4009 4021
+type(
+  bool ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 92 2962 2994 "AvaliaSintaxe.ml" 92 2962 3002
+)
+"AvaliaSintaxe.ml" 126 4009 4022 "AvaliaSintaxe.ml" 126 4009 4024
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 126 4009 4025 "AvaliaSintaxe.ml" 126 4009 4030
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 126 4009 4013 "AvaliaSintaxe.ml" 126 4009 4030
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 122 3865 3868 "AvaliaSintaxe.ml" 126 4009 4030
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 128 4038 4040 "AvaliaSintaxe.ml" 128 4038 4048
+type(
+  bool ref
+)
+ident(
+  int_ref resposta "AvaliaSintaxe.ml" 92 2962 2994 "AvaliaSintaxe.ml" 92 2962 3002
+)
+"AvaliaSintaxe.ml" 128 4038 4049 "AvaliaSintaxe.ml" 128 4038 4051
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"AvaliaSintaxe.ml" 128 4038 4052 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 128 4038 4040 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 121 3807 3808 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 100 3230 3231 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 99 3202 3203 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 98 3177 3178 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 97 3142 3143 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 96 3110 3111 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 95 3078 3079 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 94 3046 3047 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 93 3005 3006 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  unit
+)
+"AvaliaSintaxe.ml" 92 2962 2988 "AvaliaSintaxe.ml" 128 4038 4057
+type(
+  string -> bool ref -> unit
+)
+"AvaliaSintaxe.ml" 136 4366 4374 "AvaliaSintaxe.ml" 136 4366 4384
+type(
+  string -> int -> int -> bool -> bool
+)
+ident(
+  def ehVariavel "AvaliaSintaxe.ml" 136 4366 4366 "AvaliaSintaxe.ml" 1 0 -1
+)
+"AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+type(
+  string
+)
+ident(
+  def exp "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 151 4959 5014
+)
+"AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+type(
+  int
+)
+ident(
+  def pos "AvaliaSintaxe.ml" 136 4366 4393 "AvaliaSintaxe.ml" 151 4959 5014
+)
+"AvaliaSintaxe.ml" 136 4366 4393 "AvaliaSintaxe.ml" 136 4366 4401
+type(
+  int
+)
+ident(
+  def controle "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 151 4959 5014
+)
+"AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+type(
+  bool
+)
+ident(
+  def retorno "AvaliaSintaxe.ml" 138 4466 4467 "AvaliaSintaxe.ml" 151 4959 5014
+)
+"AvaliaSintaxe.ml" 138 4466 4471 "AvaliaSintaxe.ml" 138 4466 4474
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 138 4466 4475 "AvaliaSintaxe.ml" 138 4466 4476
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 138 4466 4478 "AvaliaSintaxe.ml" 138 4466 4491
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"AvaliaSintaxe.ml" 138 4466 4492 "AvaliaSintaxe.ml" 138 4466 4495
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 138 4466 4477 "AvaliaSintaxe.ml" 138 4466 4496
+type(
+  int
+)
+"AvaliaSintaxe.ml" 138 4466 4470 "AvaliaSintaxe.ml" 138 4466 4497
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 139 4504 4510 "AvaliaSintaxe.ml" 139 4504 4518
+type(
+  int
+)
+ident(
+  int_ref controle "AvaliaSintaxe.ml" 136 4366 4393 "AvaliaSintaxe.ml" 136 4366 4401
+)
+"AvaliaSintaxe.ml" 139 4504 4519 "AvaliaSintaxe.ml" 139 4504 4520
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 139 4504 4522 "AvaliaSintaxe.ml" 139 4504 4535
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"AvaliaSintaxe.ml" 139 4504 4536 "AvaliaSintaxe.ml" 139 4504 4539
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 139 4504 4521 "AvaliaSintaxe.ml" 139 4504 4540
+type(
+  int
+)
+"AvaliaSintaxe.ml" 139 4504 4509 "AvaliaSintaxe.ml" 139 4504 4541
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 140 4548 4551 "AvaliaSintaxe.ml" 140 4548 4555
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 142 4564 4567 "AvaliaSintaxe.ml" 142 4564 4572
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 139 4504 4506 "AvaliaSintaxe.ml" 142 4564 4572
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 145 4627 4634 "AvaliaSintaxe.ml" 145 4627 4648
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_min "AvaliaSintaxe.ml" 8 227 231 "AvaliaSintaxe.ml" 8 227 245
+)
+"AvaliaSintaxe.ml" 145 4627 4650 "AvaliaSintaxe.ml" 145 4627 4660
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 145 4627 4661 "AvaliaSintaxe.ml" 145 4627 4664
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 145 4627 4665 "AvaliaSintaxe.ml" 145 4627 4668
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 145 4627 4649 "AvaliaSintaxe.ml" 145 4627 4669
+type(
+  char
+)
+"AvaliaSintaxe.ml" 145 4627 4633 "AvaliaSintaxe.ml" 145 4627 4670
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 145 4627 4671 "AvaliaSintaxe.ml" 145 4627 4673
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 145 4627 4675 "AvaliaSintaxe.ml" 145 4627 4678
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 145 4627 4679 "AvaliaSintaxe.ml" 145 4627 4680
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 145 4627 4681 "AvaliaSintaxe.ml" 145 4627 4682
+type(
+  int
+)
+"AvaliaSintaxe.ml" 145 4627 4674 "AvaliaSintaxe.ml" 145 4627 4683
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 145 4627 4632 "AvaliaSintaxe.ml" 145 4627 4684
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 146 4690 4693 "AvaliaSintaxe.ml" 146 4690 4700
+type(
+  bool
+)
+ident(
+  int_ref retorno "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+)
+"AvaliaSintaxe.ml" 146 4690 4701 "AvaliaSintaxe.ml" 146 4690 4702
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 146 4690 4703 "AvaliaSintaxe.ml" 146 4690 4713
+type(
+  string -> int -> int -> bool -> bool
+)
+ident(
+  int_ref ehVariavel "AvaliaSintaxe.ml" 136 4366 4374 "AvaliaSintaxe.ml" 136 4366 4384
+)
+"AvaliaSintaxe.ml" 146 4690 4714 "AvaliaSintaxe.ml" 146 4690 4717
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 146 4690 4719 "AvaliaSintaxe.ml" 146 4690 4722
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 146 4690 4722 "AvaliaSintaxe.ml" 146 4690 4723
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 146 4690 4723 "AvaliaSintaxe.ml" 146 4690 4724
+type(
+  int
+)
+"AvaliaSintaxe.ml" 146 4690 4718 "AvaliaSintaxe.ml" 146 4690 4725
+type(
+  int
+)
+"AvaliaSintaxe.ml" 146 4690 4727 "AvaliaSintaxe.ml" 146 4690 4735
+type(
+  int
+)
+ident(
+  int_ref controle "AvaliaSintaxe.ml" 136 4366 4393 "AvaliaSintaxe.ml" 136 4366 4401
+)
+"AvaliaSintaxe.ml" 146 4690 4735 "AvaliaSintaxe.ml" 146 4690 4736
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 146 4690 4736 "AvaliaSintaxe.ml" 146 4690 4737
+type(
+  int
+)
+"AvaliaSintaxe.ml" 146 4690 4726 "AvaliaSintaxe.ml" 146 4690 4738
+type(
+  int
+)
+"AvaliaSintaxe.ml" 146 4690 4739 "AvaliaSintaxe.ml" 146 4690 4746
+type(
+  bool
+)
+ident(
+  int_ref retorno "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+)
+"AvaliaSintaxe.ml" 146 4690 4703 "AvaliaSintaxe.ml" 146 4690 4746
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 146 4690 4693 "AvaliaSintaxe.ml" 146 4690 4746
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4764 "AvaliaSintaxe.ml" 148 4756 4778
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_max "AvaliaSintaxe.ml" 11 370 374 "AvaliaSintaxe.ml" 11 370 388
+)
+"AvaliaSintaxe.ml" 148 4756 4780 "AvaliaSintaxe.ml" 148 4756 4790
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 148 4756 4791 "AvaliaSintaxe.ml" 148 4756 4794
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 148 4756 4795 "AvaliaSintaxe.ml" 148 4756 4798
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 148 4756 4779 "AvaliaSintaxe.ml" 148 4756 4799
+type(
+  char
+)
+"AvaliaSintaxe.ml" 148 4756 4764 "AvaliaSintaxe.ml" 148 4756 4799
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4800 "AvaliaSintaxe.ml" 148 4756 4802
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"AvaliaSintaxe.ml" 148 4756 4803 "AvaliaSintaxe.ml" 148 4756 4817
+type(
+  char -> bool
+)
+ident(
+  int_ref e_variavel_min "AvaliaSintaxe.ml" 8 227 231 "AvaliaSintaxe.ml" 8 227 245
+)
+"AvaliaSintaxe.ml" 148 4756 4819 "AvaliaSintaxe.ml" 148 4756 4829
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 148 4756 4830 "AvaliaSintaxe.ml" 148 4756 4833
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 148 4756 4834 "AvaliaSintaxe.ml" 148 4756 4837
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 148 4756 4818 "AvaliaSintaxe.ml" 148 4756 4838
+type(
+  char
+)
+"AvaliaSintaxe.ml" 148 4756 4803 "AvaliaSintaxe.ml" 148 4756 4838
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4839 "AvaliaSintaxe.ml" 148 4756 4841
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"AvaliaSintaxe.ml" 148 4756 4842 "AvaliaSintaxe.ml" 148 4756 4850
+type(
+  char -> bool
+)
+ident(
+  int_ref e_digito "AvaliaSintaxe.ml" 14 504 508 "AvaliaSintaxe.ml" 14 504 516
+)
+"AvaliaSintaxe.ml" 148 4756 4852 "AvaliaSintaxe.ml" 148 4756 4862
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"AvaliaSintaxe.ml" 148 4756 4863 "AvaliaSintaxe.ml" 148 4756 4866
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 148 4756 4867 "AvaliaSintaxe.ml" 148 4756 4870
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 148 4756 4851 "AvaliaSintaxe.ml" 148 4756 4871
+type(
+  char
+)
+"AvaliaSintaxe.ml" 148 4756 4842 "AvaliaSintaxe.ml" 148 4756 4871
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4803 "AvaliaSintaxe.ml" 148 4756 4871
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4763 "AvaliaSintaxe.ml" 148 4756 4872
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4873 "AvaliaSintaxe.ml" 148 4756 4875
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"AvaliaSintaxe.ml" 148 4756 4877 "AvaliaSintaxe.ml" 148 4756 4880
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 148 4756 4881 "AvaliaSintaxe.ml" 148 4756 4883
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"AvaliaSintaxe.ml" 148 4756 4884 "AvaliaSintaxe.ml" 148 4756 4885
+type(
+  int
+)
+"AvaliaSintaxe.ml" 148 4756 4876 "AvaliaSintaxe.ml" 148 4756 4886
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4762 "AvaliaSintaxe.ml" 148 4756 4887
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 149 4893 4897 "AvaliaSintaxe.ml" 149 4893 4904
+type(
+  bool
+)
+ident(
+  int_ref retorno "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+)
+"AvaliaSintaxe.ml" 149 4893 4905 "AvaliaSintaxe.ml" 149 4893 4906
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 149 4893 4907 "AvaliaSintaxe.ml" 149 4893 4917
+type(
+  string -> int -> int -> bool -> bool
+)
+ident(
+  int_ref ehVariavel "AvaliaSintaxe.ml" 136 4366 4374 "AvaliaSintaxe.ml" 136 4366 4384
+)
+"AvaliaSintaxe.ml" 149 4893 4918 "AvaliaSintaxe.ml" 149 4893 4921
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 149 4893 4923 "AvaliaSintaxe.ml" 149 4893 4926
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 149 4893 4926 "AvaliaSintaxe.ml" 149 4893 4927
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 149 4893 4927 "AvaliaSintaxe.ml" 149 4893 4928
+type(
+  int
+)
+"AvaliaSintaxe.ml" 149 4893 4922 "AvaliaSintaxe.ml" 149 4893 4929
+type(
+  int
+)
+"AvaliaSintaxe.ml" 149 4893 4931 "AvaliaSintaxe.ml" 149 4893 4939
+type(
+  int
+)
+ident(
+  int_ref controle "AvaliaSintaxe.ml" 136 4366 4393 "AvaliaSintaxe.ml" 136 4366 4401
+)
+"AvaliaSintaxe.ml" 149 4893 4939 "AvaliaSintaxe.ml" 149 4893 4940
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 149 4893 4940 "AvaliaSintaxe.ml" 149 4893 4941
+type(
+  int
+)
+"AvaliaSintaxe.ml" 149 4893 4930 "AvaliaSintaxe.ml" 149 4893 4942
+type(
+  int
+)
+"AvaliaSintaxe.ml" 149 4893 4943 "AvaliaSintaxe.ml" 149 4893 4950
+type(
+  bool
+)
+ident(
+  int_ref retorno "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+)
+"AvaliaSintaxe.ml" 149 4893 4907 "AvaliaSintaxe.ml" 149 4893 4950
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 149 4893 4897 "AvaliaSintaxe.ml" 149 4893 4950
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 151 4959 4963 "AvaliaSintaxe.ml" 151 4959 4970
+type(
+  bool
+)
+ident(
+  int_ref retorno "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+)
+"AvaliaSintaxe.ml" 151 4959 4971 "AvaliaSintaxe.ml" 151 4959 4972
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"AvaliaSintaxe.ml" 151 4959 4973 "AvaliaSintaxe.ml" 151 4959 4983
+type(
+  string -> int -> int -> bool -> bool
+)
+ident(
+  int_ref ehVariavel "AvaliaSintaxe.ml" 136 4366 4374 "AvaliaSintaxe.ml" 136 4366 4384
+)
+"AvaliaSintaxe.ml" 151 4959 4984 "AvaliaSintaxe.ml" 151 4959 4987
+type(
+  string
+)
+ident(
+  int_ref exp "AvaliaSintaxe.ml" 136 4366 4385 "AvaliaSintaxe.ml" 136 4366 4388
+)
+"AvaliaSintaxe.ml" 151 4959 4989 "AvaliaSintaxe.ml" 151 4959 4992
+type(
+  int
+)
+ident(
+  int_ref pos "AvaliaSintaxe.ml" 136 4366 4389 "AvaliaSintaxe.ml" 136 4366 4392
+)
+"AvaliaSintaxe.ml" 151 4959 4992 "AvaliaSintaxe.ml" 151 4959 4993
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"AvaliaSintaxe.ml" 151 4959 4993 "AvaliaSintaxe.ml" 151 4959 4994
+type(
+  int
+)
+"AvaliaSintaxe.ml" 151 4959 4988 "AvaliaSintaxe.ml" 151 4959 4995
+type(
+  int
+)
+"AvaliaSintaxe.ml" 151 4959 4996 "AvaliaSintaxe.ml" 151 4959 5006
+type(
+  int
+)
+ident(
+  int_ref controle "AvaliaSintaxe.ml" 136 4366 4393 "AvaliaSintaxe.ml" 136 4366 4401
+)
+"AvaliaSintaxe.ml" 151 4959 5007 "AvaliaSintaxe.ml" 151 4959 5014
+type(
+  bool
+)
+ident(
+  int_ref retorno "AvaliaSintaxe.ml" 136 4366 4402 "AvaliaSintaxe.ml" 136 4366 4409
+)
+"AvaliaSintaxe.ml" 151 4959 4973 "AvaliaSintaxe.ml" 151 4959 5014
+call(
+  stack
+)
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 151 4959 4963 "AvaliaSintaxe.ml" 151 4959 5014
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 148 4756 4759 "AvaliaSintaxe.ml" 151 4959 5014
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 145 4627 4629 "AvaliaSintaxe.ml" 151 4959 5014
+type(
+  bool
+)
+"AvaliaSintaxe.ml" 138 4466 4467 "AvaliaSintaxe.ml" 151 4959 5014
+type(
+  bool
+)
