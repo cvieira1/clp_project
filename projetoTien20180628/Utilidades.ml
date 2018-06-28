@@ -5,19 +5,19 @@ let rec print_list = function
 [] -> ()
 | e::l -> print_string e ; print_string " " ; print_list l;;
 
-(* FunÁ„o que transforma string em lista tendo cada um dos caracteres *)
+(* Fun√ß√£o que transforma string em lista tendo cada um dos caracteres *)
 let explode s =
 	let rec exp i l =
 		if i<0 then l else exp (i - 1) (s.[i] :: l) in
 	exp (String.length s -1) []
 
-(* VERIFICA SE … LETRA MIN⁄SCULA *)
+(* VERIFICA SE √â LETRA MIN√öSCULA *)
 let e_variavel_min c = ((int_of_char(c) >= int_of_char('a')) && (int_of_char(c) <= int_of_char('z')));;
 
-(* VERIFICA SE … LETRA MAI⁄SCULA *)
+(* VERIFICA SE √â LETRA MAI√öSCULA *)
 let e_variavel_max c = ((int_of_char(c) >= int_of_char('A')) && (int_of_char(c) <= int_of_char('Z')));;
 
-(* VERIFICA SE … DÕGITO *)
+(* VERIFICA SE √â D√çGITO *)
 let e_digito c = let zero = int_of_char('0') in 
 	int_of_char(c) - zero >= 0 && int_of_char(c) - zero <= 9;;
 
@@ -35,10 +35,10 @@ let verifica_sintaxeFun = fun s lista ->
 				end
 			else
 				begin
-				(* Se for um espaÁo a variavel sera a mesma *)
+				(* Se for um espa√ßo a variavel sera a mesma *)
 				if (String.get s i) = ' ' then
 					var := !var 
-				(* Se n„o for 1 espaÁo a variavel sera concatenada com o respectivo char *)	
+				(* Se n√£o for 1 espa√ßo a variavel sera concatenada com o respectivo char *)	
 				else	
 			 	  var := !var ^ Char.escaped(String.get s i);						
 				if(i+1) < tamanho then 
@@ -66,8 +66,8 @@ let verifica_sintaxeFun = fun s lista ->
 		lista := List.rev !lista_var;;
 
 
-(*FunÁ„o que converte uma lista normal numa lista de TOKENS*)
-let token = fun lista listaAritmetico listaLogico listaPalavraChave lista_final ->
+(*Fun√ß√£o que converte uma lista normal numa lista de TOKENS*)
+let token = fun lista listaAritmetico listaLogico listaPalavraChave listaComparativo lista_final ->
 	let tamanho = List.length !lista in
 	let resposta_int = ref false in
 	let resposta_rac = ref false in
@@ -75,11 +75,13 @@ let token = fun lista listaAritmetico listaLogico listaPalavraChave lista_final 
 	let rodada1 = ref true in
 	let resposta_aritmetico = ref '0' in
 	let resposta_logico = ref '0' in
+	let resposta_comparativo = ref '0' in
 	let resposta_palavraChave = ref '0' in
 	for i = 0 to (tamanho - 1) do
 		verifica_int (List.nth !lista i) resposta_int;
 		verifica (List.nth !lista i) listaAritmetico resposta_aritmetico;
 		verifica (List.nth !lista i) listaLogico resposta_logico;
+		verifica (List.nth !lista i) listaComparativo resposta_comparativo;
 		verifica (List.nth !lista i) listaPalavraChave resposta_palavraChave;
 		let tamanho_string = String.length (List.nth !lista i) in
 		for j = 0 to (tamanho_string-1) do
@@ -91,6 +93,18 @@ let token = fun lista listaAritmetico listaLogico listaPalavraChave lista_final 
 			end;
 		done;	
 		rodada1 := true;
+		if !resposta_aritmetico = 's' then
+			begin
+				lista_final := ("<opAritmetico,"^(List.nth !lista i)^">") :: !lista_final;
+			end;	
+		if !resposta_logico = 's' then
+			begin
+				lista_final := ("<opLogico,"^(List.nth !lista i)^">") :: !lista_final;
+			end;	
+		if !resposta_comparativo = 's' then
+			begin
+				lista_final := ("<opComparativo,"^(List.nth !lista i)^">") :: !lista_final;
+			end;	
 		if !resposta_palavraChave = 's' then
 			  begin
 				lista_final := (List.nth !lista i) :: !lista_final;
