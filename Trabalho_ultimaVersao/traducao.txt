@@ -1,0 +1,1 @@
+<var,x><aplAtr,x,5><int,5>do<sep,abreParenteses><var,i><sep,virgula><int,0><sep,virgula><int,2><sep,virgula><var,x><aplAtr,x,x><var,x><aplAritmetica,+,x,5><int,5><sep,fechaParenteses>
