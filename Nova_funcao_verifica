@@ -1,0 +1,74 @@
+(* OBS: simbolos do tipo _ darão problema, por exemplo, x_2 será separado como x _ 2 *)
+(* Divide String em Lista *) 
+let verifica_sintaxeFun entrada lista=
+	  (* tamanho da string *)
+		let tamanho = (String.length entrada) in
+		let lista_var = ref [] in
+		(* armazena os resultados temporariamente *)
+		let string_temp = ref "" in
+		(* flag serve para controlar se o número faz parte fa variável ou não*)
+		let flag = ref false in
+		(* o c e o c_next serve somente para deixar o código mais limpo *)
+		let c = ref ' ' in
+		
+		for indice=0 to (tamanho-1) do
+			c := (String.get entrada indice);
+			(* para evitar fazer uma referência a uma memória inválida *)
+			if ((indice+1) < tamanho) then begin
+				let c_next = (String.get entrada (indice+1)) in
+					(* se for uma letra eu entro aqui *)
+					if (e_variavel_min !c) || ( e_variavel_max !c) then begin
+						(* se não for uma letra ou dígito, então deixou de ser variável *)	
+						if not ( (e_variavel_min c_next) || (e_variavel_max c_next) || (e_digito c_next) ) then begin
+							string_temp := (!string_temp)^(String.make 1 !c);
+							lista_var := List.append (!lista_var) [!string_temp]; 
+							string_temp := "";
+							flag := false;
+						end
+						else begin
+							(* caso contrário o próximo char faz parte da variável *)
+							string_temp := (!string_temp)^(String.make 1 !c);
+							flag := true;
+						end	
+					end
+					(* se for um número eu entro aqui *)
+					else if	(e_digito !c) then begin
+						(* neste caso o digito numérico faz parte da variável *)
+						if (e_digito !c) && (!flag = true) then begin
+							string_temp := (!string_temp)^(String.make 1 !c)
+						end
+						(* senão ele é um número *)
+						else if (e_digito !c) && (!flag = false) then begin
+							string_temp := (!string_temp)^(String.make 1 !c);
+							(* se o próximo digito não for um número, então a minha string_temp deixará de ser numérica *)
+							if not (e_digito (String.get entrada (indice+1)))	then begin
+								lista_var :=  List.append (!lista_var) [!string_temp];
+								string_temp := "";
+							end	
+						end	
+					end
+					else begin
+						(* neste caso não é número e nem letra, então somente adiciono a lista *)
+						lista_var :=  List.append (!lista_var) [!string_temp];
+						string_temp := "";
+						lista_var :=  List.append (!lista_var) [String.make 1 !c];
+						flag := false;
+					end	
+				end
+				else begin
+					(* se eu tiver na ultima letra eu simplesmente adiciono tudo a lista *)
+						string_temp := (!string_temp)^(String.make 1 !c);
+						lista_var :=  List.append (!lista_var) [!string_temp];
+				end
+		done;
+		(* esse final serve apenas para tirar os espaços e o 'vazios' da lista *)
+		let tamanho_aux = ((List.length !lista_var)-1) in
+		let lista_final = ref [] in
+		for indice=0 to tamanho_aux do
+			let v = (List.nth (!lista_var) indice) in
+			if not ((v = " ") || (v = "" )) then begin
+				lista_final := List.append (!lista_final) [(List.nth (!lista_var) indice)]
+			end;	
+		done;
+		lista := !lista_final;
+		!lista_final;;
